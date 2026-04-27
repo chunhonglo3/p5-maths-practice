@@ -23,6 +23,7 @@ const SHORT_NAME = {
   'Circles':                                   'Circles',
   '2-D Shape Properties':                      '2-D Shapes',
   'Direction & Maps':                          'Direction & Maps',
+  'Setting Up Calculations':                   'Setting Up',
 }
 
 function countFor(cats, diff) {

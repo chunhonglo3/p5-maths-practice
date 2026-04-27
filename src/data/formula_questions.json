@@ -1,0 +1,352 @@
+[
+  {
+    "id": "fq_001",
+    "category": "Setting Up Calculations",
+    "section": "B",
+    "type": "mcq",
+    "text": "Each key chain costs $7 1/2. Each sticker costs $2. Ella paid $50 and bought as many key chains as possible. Which expression shows how many stickers she could buy at most with the money left?",
+    "options": [
+      "A. (50 - 6 × 7 1/2) ÷ 2",
+      "B. (50 + 6 × 7 1/2) ÷ 2",
+      "C. 50 ÷ 7 1/2 × 2",
+      "D. (50 - 2 × 6) ÷ 7 1/2"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "fq_002",
+    "category": "Setting Up Calculations",
+    "section": "B",
+    "type": "mcq",
+    "text": "A box holds 8 cans. A supermarket has 15 full boxes and 3 extra cans. Which expression shows the total number of cans?",
+    "options": [
+      "A. 15 × 8 + 3",
+      "B. 15 + 8 × 3",
+      "C. (15 + 3) × 8",
+      "D. 15 × (8 + 3)"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "fq_003",
+    "category": "Setting Up Calculations",
+    "section": "B",
+    "type": "mcq",
+    "text": "A ribbon is 3 m long. Mrs Chen cuts it into pieces that are each 25 cm long. Which expression shows how many pieces she can cut?",
+    "options": [
+      "A. 300 ÷ 25",
+      "B. 3 ÷ 25",
+      "C. 25 ÷ 300",
+      "D. 300 × 25"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "fq_004",
+    "category": "Setting Up Calculations",
+    "section": "B",
+    "type": "mcq",
+    "text": "Tom had $120. He bought 4 books at $18 each and spent the rest on pens. Which expression shows how much he spent on pens?",
+    "options": [
+      "A. 120 - 4 × 18",
+      "B. (120 - 4) × 18",
+      "C. 120 + 4 × 18",
+      "D. 4 × 18 - 120"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "fq_005",
+    "category": "Setting Up Calculations",
+    "section": "B",
+    "type": "mcq",
+    "text": "A farmer has 240 eggs. He packs them into boxes of 12, then sells each box for $8. Which expression shows how much he earns if he sells all the boxes?",
+    "options": [
+      "A. 240 ÷ 12 × 8",
+      "B. 240 × 12 ÷ 8",
+      "C. 240 ÷ 12 + 8",
+      "D. 240 ÷ (12 × 8)"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "fq_006",
+    "category": "Setting Up Calculations",
+    "section": "B",
+    "type": "mcq",
+    "text": "Ali saves $15 every week. After 8 weeks, he buys a toy for $62. Which expression shows how much money he has left?",
+    "options": [
+      "A. 15 × 8 - 62",
+      "B. 15 + 8 - 62",
+      "C. 62 - 15 × 8",
+      "D. 15 × (8 - 62)"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "fq_007",
+    "category": "Setting Up Calculations",
+    "section": "B",
+    "type": "mcq",
+    "text": "A swimming pool is 50 m long. John swims 8 lengths in the morning and 5 lengths in the afternoon. Which expression shows the total distance he swims in metres?",
+    "options": [
+      "A. (8 + 5) × 50",
+      "B. 8 + 5 × 50",
+      "C. 8 × 50 + 5",
+      "D. 8 × 5 × 50"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "fq_008",
+    "category": "Setting Up Calculations",
+    "section": "B",
+    "type": "mcq",
+    "text": "A bag of flour weighs 2 1/2 kg. A baker uses 3/4 kg of flour each day. Which expression shows how many days the flour will last?",
+    "options": [
+      "A. 2 1/2 ÷ 3/4",
+      "B. 2 1/2 × 3/4",
+      "C. 3/4 ÷ 2 1/2",
+      "D. 2 1/2 + 3/4"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "fq_009",
+    "category": "Setting Up Calculations",
+    "section": "B",
+    "type": "mcq",
+    "text": "A rectangle has length 12 cm and width 7 cm. A square has side 5 cm. Which expression shows how much larger the area of the rectangle is than the area of the square?",
+    "options": [
+      "A. 12 × 7 - 5 × 5",
+      "B. (12 + 7) × 2 - 5 × 4",
+      "C. 12 × 7 - 5",
+      "D. (12 - 5) × (7 - 5)"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "fq_010",
+    "category": "Setting Up Calculations",
+    "section": "B",
+    "type": "mcq",
+    "text": "A school ordered 25 boxes of coloured pencils with 24 pencils in each box. The pencils are shared equally among 6 classes. Which expression shows how many pencils each class gets?",
+    "options": [
+      "A. 25 × 24 ÷ 6",
+      "B. 25 ÷ 24 × 6",
+      "C. 25 + 24 ÷ 6",
+      "D. (25 + 24) × 6"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "fq_011",
+    "category": "Setting Up Calculations",
+    "section": "B",
+    "type": "mcq",
+    "text": "Mrs Lam baked 8 trays of cookies with 12 cookies on each tray. She gave 24 cookies to her neighbours and packed the rest equally into 6 bags. Which expression shows how many cookies are in each bag?",
+    "options": [
+      "A. (8 × 12 - 24) ÷ 6",
+      "B. 8 × 12 - 24 ÷ 6",
+      "C. 8 × (12 - 24) ÷ 6",
+      "D. (8 + 12 - 24) ÷ 6"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "fq_012",
+    "category": "Setting Up Calculations",
+    "section": "B",
+    "type": "mcq",
+    "text": "A bus travels at 60 km/h. A train travels 3 times as fast as the bus. Which expression shows how far the train travels in 2 1/2 hours?",
+    "options": [
+      "A. 3 × 60 × 2 1/2",
+      "B. 60 ÷ 3 × 2 1/2",
+      "C. 3 + 60 × 2 1/2",
+      "D. 3 × 60 + 2 1/2"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "fq_013",
+    "category": "Setting Up Calculations",
+    "section": "B",
+    "type": "mcq",
+    "text": "A cinema has 18 rows with 24 seats in each row. 315 seats are occupied. Which expression shows how many seats are empty?",
+    "options": [
+      "A. 18 × 24 - 315",
+      "B. 315 - 18 × 24",
+      "C. (18 + 24) - 315",
+      "D. 18 × 24 + 315"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "fq_014",
+    "category": "Setting Up Calculations",
+    "section": "B",
+    "type": "mcq",
+    "text": "David earns $24 per hour. He worked for 8 hours on Saturday and 6 hours on Sunday. Which expression shows his total earnings for the weekend?",
+    "options": [
+      "A. 24 × (8 + 6)",
+      "B. 24 × 8 + 6",
+      "C. (24 + 8) × 6",
+      "D. 24 + 8 + 6"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "fq_015",
+    "category": "Setting Up Calculations",
+    "section": "B",
+    "type": "mcq",
+    "text": "A shop had 480 apples. It sold 1/3 of them in the morning. In the afternoon it sold 1/4 of the remaining apples. Which expression shows how many apples were sold in the afternoon?",
+    "options": [
+      "A. (480 - 480 × 1/3) × 1/4",
+      "B. 480 × 1/4 - 1/3",
+      "C. (1/4 + 1/3) × 480",
+      "D. 480 × 1/3 × 1/4"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "fq_016",
+    "category": "Setting Up Calculations",
+    "section": "B",
+    "type": "mcq",
+    "text": "A rectangular tank is 40 cm long, 25 cm wide and 30 cm tall. Water fills 2/3 of the tank. Which expression shows the volume of water in the tank in cm³?",
+    "options": [
+      "A. 40 × 25 × 30 × 2/3",
+      "B. 40 × 25 × 30 ÷ 3",
+      "C. 40 × 25 × 2/3",
+      "D. (40 + 25 + 30) × 2/3"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "fq_017",
+    "category": "Setting Up Calculations",
+    "section": "B",
+    "type": "mcq",
+    "text": "Peter has 3 times as many marbles as John. Together they have 84 marbles. Which expression shows how many marbles Peter has?",
+    "options": [
+      "A. 84 ÷ (3 + 1) × 3",
+      "B. 84 ÷ 3 × 4",
+      "C. 84 × 3",
+      "D. (84 - 3) × 3"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "fq_018",
+    "category": "Setting Up Calculations",
+    "section": "B",
+    "type": "mcq",
+    "text": "A rope that is 7 1/2 m long is cut into pieces each 1/2 m long. Which expression shows how many pieces there are?",
+    "options": [
+      "A. 7 1/2 ÷ 1/2",
+      "B. 7 1/2 × 1/2",
+      "C. 1/2 ÷ 7 1/2",
+      "D. 7 1/2 - 1/2"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "fq_019",
+    "category": "Setting Up Calculations",
+    "section": "B",
+    "type": "mcq",
+    "text": "Museum tickets cost $12 for adults and $7 for children. A family of 2 adults and 3 children visits the museum. Which expression shows the total ticket cost?",
+    "options": [
+      "A. 2 × 12 + 3 × 7",
+      "B. (2 + 3) × (12 + 7)",
+      "C. 2 × 7 + 3 × 12",
+      "D. 2 + 3 × (12 + 7)"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "fq_020",
+    "category": "Setting Up Calculations",
+    "section": "B",
+    "type": "mcq",
+    "text": "Water flows into a tank at 8 litres per minute. After 15 minutes, 40 litres of water are removed. Which expression shows how many litres remain in the tank?",
+    "options": [
+      "A. 8 × 15 - 40",
+      "B. 8 + 15 - 40",
+      "C. 8 × (15 - 40)",
+      "D. 40 - 8 × 15"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "fq_021",
+    "category": "Setting Up Calculations",
+    "section": "B",
+    "type": "mcq",
+    "text": "Sarah is x years old. Her mother is 4 times her age. In 5 years' time, which expression shows her mother's age?",
+    "options": [
+      "A. 4x + 5",
+      "B. 4(x + 5)",
+      "C. 4x - 5",
+      "D. x + 5 × 4"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "fq_022",
+    "category": "Setting Up Calculations",
+    "section": "B",
+    "type": "mcq",
+    "text": "A stack of 5 identical books is 15 cm tall. Which expression shows the height of a stack of 8 such books?",
+    "options": [
+      "A. 15 ÷ 5 × 8",
+      "B. 15 × 5 ÷ 8",
+      "C. 15 + 5 × 8",
+      "D. 15 ÷ (5 + 8)"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "fq_023",
+    "category": "Setting Up Calculations",
+    "section": "B",
+    "type": "mcq",
+    "text": "3 out of every 5 students in a school are girls. The school has 450 students altogether. Which expression shows how many boys there are?",
+    "options": [
+      "A. 450 × 2/5",
+      "B. 450 × 3/5",
+      "C. 450 ÷ 3 × 5",
+      "D. 450 ÷ 5 + 3"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "fq_024",
+    "category": "Setting Up Calculations",
+    "section": "B",
+    "type": "mcq",
+    "text": "A number is multiplied by 6, then 18 is added to the result. The final answer is 54. Which expression shows how to find the original number?",
+    "options": [
+      "A. (54 - 18) ÷ 6",
+      "B. 54 ÷ 6 - 18",
+      "C. (54 + 18) ÷ 6",
+      "D. 54 - 18 × 6"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "fq_025",
+    "category": "Setting Up Calculations",
+    "section": "B",
+    "type": "mcq",
+    "text": "Three friends have $200 altogether. They buy a gift for $95 and share the remaining money equally. Which expression shows each person's share?",
+    "options": [
+      "A. (200 - 95) ÷ 3",
+      "B. 200 ÷ 3 - 95",
+      "C. (200 + 95) ÷ 3",
+      "D. 200 - 95 × 3"
+    ],
+    "answer": "A"
+  }
+]

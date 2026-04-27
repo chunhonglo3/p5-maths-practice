@@ -1,5 +1,6 @@
 import rawData from './p5_questions.json'
 import generatedRaw from './generated_questions.json'
+import formulaRaw from './formula_questions.json'
 
 function sectionToDifficulty(section) {
   if (section === 'A') return 'easy'
@@ -50,12 +51,31 @@ function transformGenerated(items) {
   }))
 }
 
+function transformFormula(items) {
+  return items.map(q => ({
+    id: q.id,
+    paper: null,
+    section: q.section,
+    category: q.category,
+    difficulty: sectionToDifficulty(q.section),
+    question: q.text,
+    options: q.type === 'mcq' ? q.options : undefined,
+    answer: q.type === 'mcq' ? expandAnswer(q.answer, q.options) : q.answer,
+    source: 'Formula Practice',
+    isGenerated: true,
+  }))
+}
+
 const realQuestions = transformReal(rawData)
 const aiQuestions = transformGenerated(generatedRaw)
+const formulaQuestions = transformFormula(formulaRaw)
 
-export const seedQuestions = [...realQuestions, ...aiQuestions]
+export const seedQuestions = [...realQuestions, ...aiQuestions, ...formulaQuestions]
 
-export const CATEGORIES = rawData.categories.map(c => c.name)
+export const CATEGORIES = [
+  ...rawData.categories.map(c => c.name),
+  'Setting Up Calculations',
+]
 
 export const CATEGORY_COLORS = {
   'Place Value & Rounding':                    { bg: 'bg-teal-100',   border: 'border-teal-400',   text: 'text-teal-800',   btn: 'bg-teal-500 hover:bg-teal-600' },
@@ -69,6 +89,7 @@ export const CATEGORY_COLORS = {
   'Circles':                                   { bg: 'bg-rose-100',   border: 'border-rose-400',   text: 'text-rose-800',   btn: 'bg-rose-500 hover:bg-rose-600' },
   '2-D Shape Properties':                      { bg: 'bg-indigo-100', border: 'border-indigo-400', text: 'text-indigo-800', btn: 'bg-indigo-500 hover:bg-indigo-600' },
   'Direction & Maps':                          { bg: 'bg-lime-100',   border: 'border-lime-400',   text: 'text-lime-800',   btn: 'bg-lime-500 hover:bg-lime-600' },
+  'Setting Up Calculations':                   { bg: 'bg-fuchsia-100', border: 'border-fuchsia-400', text: 'text-fuchsia-800', btn: 'bg-fuchsia-500 hover:bg-fuchsia-600' },
 }
 
 export const DIFFICULTY_LABELS = {
