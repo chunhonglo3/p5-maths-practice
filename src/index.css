@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'STIX Two Text', Georgia, serif;
+  background-color: #fef9f0;
+  /* prevent iOS tap highlight flash */
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Make KaTeX inline math size match surrounding text */
+.katex {
+  font-size: 1em !important;
+}
+
+@media print {
+  .no-print { display: none !important; }
+  .print-only { display: block !important; }
+  body { background: white; font-size: 12pt; }
+  .page-break { page-break-before: always; }
+  .print-container { max-width: 100%; padding: 0; margin: 0; }
+}
+
+.print-only { display: none; }
+
+@keyframes pop-in {
+  0%   { transform: scale(0.95); opacity: 0; }
+  100% { transform: scale(1);    opacity: 1; }
+}
+.animate-pop { animation: pop-in 0.2s ease-out; }
