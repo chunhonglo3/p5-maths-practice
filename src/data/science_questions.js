@@ -49,9 +49,9 @@ export const SCIENCE_CATEGORY_COLORS = {
 }
 
 export const SCIENCE_SHORT_NAMES = {
-  "Earth's Rotation & Day/Night":  'Rotation',
-  "Earth's Revolution & Seasons":  'Revolution',
+  "Earth's Rotation & Day/Night":  'Rotation & Day/Night',
+  "Earth's Revolution & Seasons":  'Revolution & Seasons',
   'Time Zones':                    'Time Zones',
-  'The Moon & Lunar Cycle':        'The Moon',
-  'Solar & Lunar Eclipses':        'Eclipses',
+  'The Moon & Lunar Cycle':        'Moon & Lunar Cycle',
+  'Solar & Lunar Eclipses':        'Solar & Lunar Eclipses',
 }
