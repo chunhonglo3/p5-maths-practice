@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { CATEGORY_COLORS, DIFFICULTY_LABELS } from '../data/questions'
 import { MathText } from '../utils/mathRenderer'
 
-export default function PracticeMode({ questions, onHome }) {
+export default function PracticeMode({ questions, categoryColors = CATEGORY_COLORS, onHome }) {
   const [index, setIndex] = useState(0)
   const [revealed, setRevealed] = useState(false)
   const [selectedOption, setSelectedOption] = useState(null)
@@ -21,7 +21,7 @@ export default function PracticeMode({ questions, onHome }) {
 
   const q = questions[index]
   const isMCQ = Array.isArray(q.options) && q.options.length > 0
-  const colors = CATEGORY_COLORS[q.category] || {}
+  const colors = categoryColors[q.category] || {}
   const diffInfo = DIFFICULTY_LABELS[q.difficulty] || {}
   const isLast = index === questions.length - 1
 
@@ -88,7 +88,7 @@ export default function PracticeMode({ questions, onHome }) {
           </div>
 
           {/* Question */}
-          <p className="text-lg sm:text-xl font-bold text-gray-800 leading-relaxed mb-5">
+          <p className="text-lg sm:text-xl font-bold text-gray-800 leading-relaxed mb-5 whitespace-pre-wrap">
             <MathText>{q.question}</MathText>
           </p>
 

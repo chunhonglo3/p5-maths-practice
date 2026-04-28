@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { CATEGORY_COLORS, DIFFICULTY_LABELS } from '../data/questions'
 import { MathText } from '../utils/mathRenderer'
 
-export default function QuizMode({ questions, onHome }) {
+export default function QuizMode({ questions, categoryColors = CATEGORY_COLORS, onHome }) {
   const [answers, setAnswers] = useState({})
   const [submitted, setSubmitted] = useState(false)
   const [currentIndex, setCurrentIndex] = useState(0)
@@ -54,7 +54,7 @@ export default function QuizMode({ questions, onHome }) {
               const isMCQ = Array.isArray(q.options) && q.options.length > 0
               const userAnswer = answers[q.id]
               const correct = isMCQ ? userAnswer === q.answer : null
-              const colors = CATEGORY_COLORS[q.category] || {}
+              const colors = categoryColors[q.category] || {}
 
               return (
                 <div
@@ -123,7 +123,7 @@ export default function QuizMode({ questions, onHome }) {
   // ── Question screen ─────────────────────────────────────────────────────────
   const q = questions[currentIndex]
   const isMCQ = Array.isArray(q.options) && q.options.length > 0
-  const colors = CATEGORY_COLORS[q.category] || {}
+  const colors = categoryColors[q.category] || {}
   const diffInfo = DIFFICULTY_LABELS[q.difficulty] || {}
   const userAnswer = answers[q.id]
   const answeredCount = Object.keys(answers).length
@@ -183,7 +183,7 @@ export default function QuizMode({ questions, onHome }) {
             </span>
           </div>
 
-          <p className="text-lg sm:text-xl font-bold text-gray-800 leading-relaxed mb-5">
+          <p className="text-lg sm:text-xl font-bold text-gray-800 leading-relaxed mb-5 whitespace-pre-wrap">
             <MathText>{q.question}</MathText>
           </p>
 

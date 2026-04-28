@@ -1,6 +1,7 @@
 import { useState, useMemo } from 'react'
-import { seedQuestions } from './data/questions'
-import { scienceQuestions } from './data/science_questions'
+import { seedQuestions, CATEGORY_COLORS } from './data/questions'
+import { scienceQuestions, SCIENCE_CATEGORY_COLORS } from './data/science_questions'
+import { englishQuestions, ENGLISH_CATEGORY_COLORS } from './data/english_questions'
 import HomeScreen from './components/HomeScreen'
 import PracticeMode from './components/PracticeMode'
 import QuizMode from './components/QuizMode'
@@ -18,6 +19,13 @@ function shuffle(arr) {
 const ALL_QUESTIONS = {
   maths: seedQuestions,
   science: scienceQuestions,
+  english: englishQuestions,
+}
+
+const ALL_CATEGORY_COLORS = {
+  maths: CATEGORY_COLORS,
+  science: SCIENCE_CATEGORY_COLORS,
+  english: ENGLISH_CATEGORY_COLORS,
 }
 
 export default function App() {
@@ -43,11 +51,13 @@ export default function App() {
     setScreen(mode)
   }
 
+  const categoryColors = ALL_CATEGORY_COLORS[subject]
+
   if (screen === 'practice') {
-    return <PracticeMode questions={filteredQuestions} onHome={() => setScreen('home')} />
+    return <PracticeMode questions={filteredQuestions} categoryColors={categoryColors} onHome={() => setScreen('home')} />
   }
   if (screen === 'quiz') {
-    return <QuizMode questions={quizQuestions} onHome={() => setScreen('home')} />
+    return <QuizMode questions={quizQuestions} categoryColors={categoryColors} onHome={() => setScreen('home')} />
   }
   if (screen === 'print') {
     return (

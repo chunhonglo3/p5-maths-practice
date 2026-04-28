@@ -1,0 +1,264 @@
+{
+  "subject": "English",
+  "categories": [
+    {
+      "name": "Vocabulary",
+      "questions": [
+        {"id":"ge-P1-A-1","paper":1,"section":"A","type":"mcq","text":"On his third ___ to the planet Neptune, Space Captain Stefan was killed and eaten by aliens.","options":["voyage","labour","motion","stooped"],"answer":"voyage"},
+        {"id":"ge-P1-A-2","paper":1,"section":"A","type":"mcq","text":"The ___ at the construction site worked from morning to evening to finish the building.","options":["major","labour","contain","motion"],"answer":"labour"},
+        {"id":"ge-P1-A-3","paper":1,"section":"A","type":"mcq","text":"Something fell out of her coat pocket and she ___ down and picked it up.","options":["stooped","regular","furnish","owed"],"answer":"stooped"},
+        {"id":"ge-P1-A-4","paper":1,"section":"A","type":"mcq","text":"When the pop idol walked on the stage, the girls started to ___ in excitement.","options":["shriek","contain","labour","motion"],"answer":"shriek"},
+        {"id":"ge-P1-A-5","paper":1,"section":"A","type":"mcq","text":"The room was hardly big enough to ___ everyone who came to the meeting.","options":["contain","furnish","voyage","regular"],"answer":"contain"},
+        {"id":"ge-P1-A-6","paper":1,"section":"A","type":"mcq","text":"Having ___ exercise is a good way to keep healthy.","options":["regular","major","stooped","owed"],"answer":"regular"},
+        {"id":"ge-P3-E-1","paper":3,"section":"E","type":"mcq","text":"I'm sorry, I can't loan you any more money. You already ___ me about 200 dollars.","options":["owe","due","honour","contain"],"answer":"owe"},
+        {"id":"ge-P3-E-2","paper":3,"section":"E","type":"mcq","text":"The ___ of the boat in the big waves made a lot of people seasick.","options":["motion","clutter","purpose","honour"],"answer":"motion"},
+        {"id":"ge-P3-E-3","paper":3,"section":"E","type":"mcq","text":"Teachers should always explain the ___ of the activities they have their students take part in.","options":["purpose","motion","honour","due"],"answer":"purpose"},
+        {"id":"ge-P3-E-4","paper":3,"section":"E","type":"mcq","text":"I thought the homework wasn't ___ until next week, but apparently we have to hand it in tomorrow.","options":["due","owe","clutter","purpose"],"answer":"due"},
+        {"id":"ge-P3-E-5","paper":3,"section":"E","type":"mcq","text":"There was a loud ___ as all of the pots fell out onto the floor when I opened the cabinet.","options":["clatter","motion","honour","contain"],"answer":"clatter"},
+        {"id":"ge-P4-E-1","paper":4,"section":"E","type":"mcq","text":"The children in our family are always ___ to their elders.","options":["respectful","awful","ignorant","fulfil"],"answer":"respectful"},
+        {"id":"ge-P4-E-2","paper":4,"section":"E","type":"mcq","text":"The owners would ___ the apartment with tables, chairs, beds and a couch.","options":["furnish","contain","beware","fulfil"],"answer":"furnish"},
+        {"id":"ge-P4-E-3","paper":4,"section":"E","type":"mcq","text":"When you are going for a hike, ___ of falling rocks from the top of the mountain.","options":["beware","ignorant","awful","contain"],"answer":"beware"},
+        {"id":"ge-P4-E-4","paper":4,"section":"E","type":"mcq","text":"If you want to ___ your dream, you have to work extremely hard and stay focused.","options":["fulfil","introduce","furnish","contain"],"answer":"fulfil"},
+        {"id":"ge-P4-E-5","paper":4,"section":"E","type":"mcq","text":"The weather was ___ yesterday, so we had to cancel our outdoor event.","options":["awful","respectful","ignorant","beware"],"answer":"awful"}
+      ]
+    },
+    {
+      "name": "Verb Tenses",
+      "questions": [
+        {"id":"ge-P1-B-1","paper":1,"section":"B","type":"fill_blank","text":"My family ___ (go) to the beach last Saturday.","answer":"went"},
+        {"id":"ge-P1-B-2","paper":1,"section":"B","type":"fill_blank","text":"While we ___ (go) to the beach by car, there was a traffic jam.","answer":"were going"},
+        {"id":"ge-P1-B-3","paper":1,"section":"B","type":"fill_blank","text":"There ___ (be) a lot of people on the beach.","answer":"were"},
+        {"id":"ge-P1-B-4","paper":1,"section":"B","type":"fill_blank","text":"We did some warm-up exercise before ___ (jump) into the water.","answer":"jumping"},
+        {"id":"ge-P1-B-5","paper":1,"section":"B","type":"fill_blank","text":"We all enjoyed ___ (swim) in the cool, blue sea.","answer":"swimming"},
+        {"id":"ge-P1-B-6","paper":1,"section":"B","type":"fill_blank","text":"Father wanted ___ (take) a rest because he was tired.","answer":"to take"},
+        {"id":"ge-P1-B-7","paper":1,"section":"B","type":"fill_blank","text":"He ___ (lie) on the sand and soon fell asleep.","answer":"lay"},
+        {"id":"ge-P1-B-8","paper":1,"section":"B","type":"fill_blank","text":"While Father was still ___ (sleep), we woke him up because it was time to leave.","answer":"sleeping"},
+        {"id":"ge-P1-B-9","paper":1,"section":"B","type":"fill_blank","text":"We ___ (wake) Father up because it was time to leave.","answer":"woke"},
+        {"id":"ge-P2-A-1","paper":2,"section":"A","type":"fill_blank","text":"The space mission ___ (take) eight days and three hours in total.","answer":"took"},
+        {"id":"ge-P2-A-2","paper":2,"section":"A","type":"fill_blank","text":"Did the astronauts ___ (have) anything to eat in the spacecraft?","answer":"have"},
+        {"id":"ge-P2-A-3","paper":2,"section":"A","type":"fill_blank","text":"In every space mission, there ___ (be) special food for the astronauts.","answer":"is"},
+        {"id":"ge-P2-A-4","paper":2,"section":"A","type":"fill_blank","text":"I want ___ (try) the space food too!","answer":"to try"},
+        {"id":"ge-P2-A-5","paper":2,"section":"A","type":"fill_blank","text":"Do you remember we ___ (have) a picnic in the field yesterday?","answer":"had"},
+        {"id":"ge-P3-A-1","paper":3,"section":"A","type":"fill_blank","text":"Kevin ___ (visit) his cousin Amy Baxter last year.","answer":"visited"},
+        {"id":"ge-P3-A-2","paper":3,"section":"A","type":"fill_blank","text":"Yesterday, while Kevin ___ (read) a book, his mother came in and got a letter from Amy.","answer":"was reading"},
+        {"id":"ge-P3-A-3","paper":3,"section":"A","type":"fill_blank","text":"His mother came in and ___ (get) a letter from Amy on the desk.","answer":"got"},
+        {"id":"ge-P3-A-4","paper":3,"section":"A","type":"fill_blank","text":"Remember how much fun we ___ (have) last year?","answer":"had"},
+        {"id":"ge-P3-A-5","paper":3,"section":"A","type":"fill_blank","text":"I ___ (mean) to spend a nice weekend with my friend Jane, who lives in Manhattan.","answer":"meant"},
+        {"id":"ge-P3-A-6","paper":3,"section":"A","type":"fill_blank","text":"\"I'm sure we ___ (have) lots of fun,\" Jane said while we were unpacking.","answer":"will have"},
+        {"id":"ge-P3-A-7","paper":3,"section":"A","type":"fill_blank","text":"Jane said those words while I ___ (unpack) my things.","answer":"was unpacking"},
+        {"id":"ge-P4-A-1","paper":4,"section":"A","type":"fill_blank","text":"I ___ (be) upset today because so many bad things happened.","answer":"am"},
+        {"id":"ge-P4-A-2","paper":4,"section":"A","type":"fill_blank","text":"I ___ (have) an English exam this morning.","answer":"had"},
+        {"id":"ge-P4-A-3","paper":4,"section":"A","type":"fill_blank","text":"Miss Lam's test ___ (be) always difficult.","answer":"is"},
+        {"id":"ge-P4-A-4","paper":4,"section":"A","type":"fill_blank","text":"In addition, I ___ (forget) to study for the test.","answer":"forgot"},
+        {"id":"ge-P4-A-5","paper":4,"section":"A","type":"fill_blank","text":"If I fail the test, Miss Lam ___ (be) angry with me.","answer":"will be"},
+        {"id":"ge-P4-A-6","paper":4,"section":"A","type":"fill_blank","text":"While I ___ (chat) online with Vincent, Mum told me to get off the computer.","answer":"was chatting"},
+        {"id":"ge-P4-A-7","paper":4,"section":"A","type":"fill_blank","text":"Mum ___ (tell) me to get off my computer and said I was wasting time.","answer":"told"}
+      ]
+    },
+    {
+      "name": "Prepositions",
+      "questions": [
+        {"id":"ge-P1-C-1","paper":1,"section":"C","type":"fill_blank","text":"We had to remember each detail ___ the map in order to find the treasure hidden in the schoolyard.","answer":"on"},
+        {"id":"ge-P1-C-2","paper":1,"section":"C","type":"fill_blank","text":"The students were surprised ___ the principal, who joined their class for lunch and told them a funny story.","answer":"by"},
+        {"id":"ge-P1-C-3","paper":1,"section":"C","type":"fill_blank","text":"It was hard to watch what happened ___ the main character in the movie because he lost everything he cared about.","answer":"to"},
+        {"id":"ge-P1-C-4","paper":1,"section":"C","type":"fill_blank","text":"The whole class was amazed ___ how quietly the snow fell, covering everything in a blanket of white.","answer":"at"},
+        {"id":"ge-P2-B-1","paper":2,"section":"B","type":"fill_blank","text":"My mum stopped me ___ eating too many candies so that I wouldn't get a stomachache.","answer":"from"},
+        {"id":"ge-P2-B-2","paper":2,"section":"B","type":"fill_blank","text":"The argument ___ Grace and Karris started because they both wanted to sit in the same chair.","answer":"between"},
+        {"id":"ge-P2-B-3","paper":2,"section":"B","type":"fill_blank","text":"Our parents were surprised ___ how well we worked together on the school project.","answer":"at"},
+        {"id":"ge-P2-B-4","paper":2,"section":"B","type":"fill_blank","text":"He rubbed ___ the number and wrote the correct one in the blank.","answer":"out"},
+        {"id":"ge-P2-B-5","paper":2,"section":"B","type":"fill_blank","text":"He felt sick and dizzy and then passed ___ suddenly. All his classmates were shocked.","answer":"out"},
+        {"id":"ge-P2-B-6","paper":2,"section":"B","type":"fill_blank","text":"I'll just read through the form again to make sure I haven't missed ___ anything.","answer":"out"},
+        {"id":"ge-P2-B-7","paper":2,"section":"B","type":"fill_blank","text":"If you write on the whiteboard, remember to rub it ___ at the end of the lesson.","answer":"off"},
+        {"id":"ge-P2-B-8","paper":2,"section":"B","type":"fill_blank","text":"They had to call ___ the party when they found out the birthday girl wasn't feeling well.","answer":"off"},
+        {"id":"ge-P4-K-1","paper":4,"section":"K","type":"fill_blank","text":"Rich students from the city looked ___ on Jimmy because he was from a poor family in the countryside.","answer":"down"},
+        {"id":"ge-P4-K-2","paper":4,"section":"K","type":"fill_blank","text":"I didn't know what 'loquacious' meant and had to look it ___ in a dictionary.","answer":"up"},
+        {"id":"ge-P4-K-3","paper":4,"section":"K","type":"fill_blank","text":"They look so alike that I always muddle ___ their names when I see them.","answer":"up"},
+        {"id":"ge-P4-K-4","paper":4,"section":"K","type":"fill_blank","text":"I was so worried about what might happen ___ Karru when she went on her first school trip.","answer":"to"},
+        {"id":"ge-P4-K-5","paper":4,"section":"K","type":"fill_blank","text":"Mika was about to answer the question, but ___ that moment, the bell rang, signalling the end of class.","answer":"at"}
+      ]
+    },
+    {
+      "name": "Articles",
+      "questions": [
+        {"id":"ge-P2-J-1","paper":2,"section":"J","type":"mcq","text":"Today, I have ___ interview at a financial company.","options":["a","an","the","X (no article)"],"answer":"an"},
+        {"id":"ge-P2-J-2","paper":2,"section":"J","type":"mcq","text":"I have an interview at a financial company. ___ company has offices all over the world.","options":["a","an","the","X (no article)"],"answer":"the"},
+        {"id":"ge-P2-J-3","paper":2,"section":"J","type":"mcq","text":"The company's office is on ___ RSQ Street.","options":["a","an","the","X (no article)"],"answer":"X (no article)"},
+        {"id":"ge-P2-J-4","paper":2,"section":"J","type":"mcq","text":"That's ___ same street my friend works on.","options":["a","an","the","X (no article)"],"answer":"the"},
+        {"id":"ge-P3-B-1","paper":3,"section":"B","type":"mcq","text":"Are you at ___ home now? I don't have much time to write.","options":["a","an","the","X (no article)"],"answer":"X (no article)"},
+        {"id":"ge-P3-B-2","paper":3,"section":"B","type":"mcq","text":"It's my birthday on ___ Saturday.","options":["a","an","the","X (no article)"],"answer":"X (no article)"},
+        {"id":"ge-P3-B-3","paper":3,"section":"B","type":"mcq","text":"My mum usually buys ___ big chocolate cake from the bakery next door for my birthday.","options":["a","an","the","X (no article)"],"answer":"a"},
+        {"id":"ge-P3-B-4","paper":3,"section":"B","type":"mcq","text":"She buys the cake from ___ bakery next door. This bakery is very good.","options":["a","an","the","X (no article)"],"answer":"the"},
+        {"id":"ge-P3-B-5","paper":3,"section":"B","type":"mcq","text":"Uncle Jake plays ___ guitar at home, so I have invited him to the party to sing songs with us.","options":["a","an","the","X (no article)"],"answer":"the"},
+        {"id":"ge-P4-B-1","paper":4,"section":"B","type":"mcq","text":"Randy Pausch is ___ professor of Computer Science in the United States of America.","options":["a","an","the","X (no article)"],"answer":"a"},
+        {"id":"ge-P4-B-2","paper":4,"section":"B","type":"mcq","text":"Randy Pausch is a professor of Computer Science in ___ United States of America.","options":["a","an","the","X (no article)"],"answer":"the"},
+        {"id":"ge-P4-B-3","paper":4,"section":"B","type":"mcq","text":"Pausch was diagnosed with cancer in ___ September, 2006.","options":["a","an","the","X (no article)"],"answer":"X (no article)"},
+        {"id":"ge-P4-B-4","paper":4,"section":"B","type":"mcq","text":"He gave ___ lecture telling the world what he thought made a person special.","options":["a","an","the","X (no article)"],"answer":"a"},
+        {"id":"ge-P4-B-5","paper":4,"section":"B","type":"mcq","text":"He gave a lecture telling ___ world what he thought made a person special.","options":["a","an","the","X (no article)"],"answer":"the"}
+      ]
+    },
+    {
+      "name": "Phrasal Verbs",
+      "questions": [
+        {"id":"ge-P1-F-1","paper":1,"section":"F","type":"mcq","text":"The teacher asked us to ___ a story about a time-travelling dog who visits different countries.","options":["make up","called off","broke off","knocked down"],"answer":"make up"},
+        {"id":"ge-P1-F-2","paper":1,"section":"F","type":"mcq","text":"They ___ on the free ice cream offer because they didn't check their email on time.","options":["missed out","passed up","called off","broke off"],"answer":"missed out"},
+        {"id":"ge-P1-F-3","paper":1,"section":"F","type":"mcq","text":"His arms were ___ with rope during the play to make the scene look realistic, but he wasn't really hurt.","options":["bound up","called off","knocked down","broke off"],"answer":"bound up"},
+        {"id":"ge-P1-F-4","paper":1,"section":"F","type":"mcq","text":"We were excited for the hiking trip, but it was ___ because the trail was too muddy and unsafe.","options":["called off","knocked down","broke off","make up"],"answer":"called off"},
+        {"id":"ge-P1-F-5","paper":1,"section":"F","type":"mcq","text":"I ___ a small section of my pencil because it was too long to fit in my pencil case.","options":["broke off","knocked down","called off","missed out"],"answer":"broke off"},
+        {"id":"ge-P1-F-6","paper":1,"section":"F","type":"mcq","text":"When the driver lost control of the car on a slippery road, it ___ a mailbox on the side of the road.","options":["knocked down","broke off","called off","make up"],"answer":"knocked down"},
+        {"id":"ge-P3-J-1","paper":3,"section":"J","type":"mcq","text":"Before going on the school trip, we had to ___ a permission form and get our parents to sign it.","options":["fill out","back up","broke away","kept away"],"answer":"fill out"},
+        {"id":"ge-P3-J-2","paper":3,"section":"J","type":"mcq","text":"The coach told us that we should always ___ our teammates, whether we win or lose.","options":["back up","fill out","looked up","broke away"],"answer":"back up"},
+        {"id":"ge-P3-J-3","paper":3,"section":"J","type":"mcq","text":"Before writing my report on dolphins, I ___ facts about them in books and on the Internet.","options":["looked up","fill out","back up","broke away"],"answer":"looked up"},
+        {"id":"ge-P3-J-4","paper":3,"section":"J","type":"mcq","text":"The goat ___ from the fence and wandered into the neighbour's garden, looking for food.","options":["broke away","looked up","fill out","kept away"],"answer":"broke away"},
+        {"id":"ge-P3-J-5","paper":3,"section":"J","type":"mcq","text":"The bug spray ___ the mosquitoes while we were camping in the forest.","options":["kept away","broke away","broke off","looked up"],"answer":"kept away"},
+        {"id":"ge-P3-J-6","paper":3,"section":"J","type":"mcq","text":"The scientist ___ a tiny part of the rock to examine it under the microscope.","options":["broke off","kept away","broke away","back up"],"answer":"broke off"}
+      ]
+    },
+    {
+      "name": "Word Forms",
+      "questions": [
+        {"id":"ge-P1-L-1","paper":1,"section":"L","type":"fill_blank","text":"\"Do you have the tickets?\" he asked ___ (hope).","answer":"hopefully"},
+        {"id":"ge-P1-L-2","paper":1,"section":"L","type":"fill_blank","text":"Many people suffer from some form of mental ___ (ill) during their lives.","answer":"illness"},
+        {"id":"ge-P1-L-3","paper":1,"section":"L","type":"fill_blank","text":"The authors would also like to thank their support staff who have ___ (kind) helped in this project in many other ways.","answer":"kindly"},
+        {"id":"ge-P1-L-4","paper":1,"section":"L","type":"fill_blank","text":"___ (luck), we can fix the problem in a very simple way.","answer":"luckily"},
+        {"id":"ge-P1-L-5","paper":1,"section":"L","type":"fill_blank","text":"The garbage truck is so ___ (noise) it wakes me up in the morning.","answer":"noisy"},
+        {"id":"ge-P2-L-1","paper":2,"section":"L","type":"fill_blank","text":"Adrienne was ___ (hope) about the outcome of the meeting.","answer":"hopeful"},
+        {"id":"ge-P2-L-2","paper":2,"section":"L","type":"fill_blank","text":"I would like to express my thanks for your ___ (kind).","answer":"kindness"},
+        {"id":"ge-P2-L-3","paper":2,"section":"L","type":"fill_blank","text":"We'll be ___ (luck) if we get there by midnight at this rate.","answer":"lucky"},
+        {"id":"ge-P2-L-4","paper":2,"section":"L","type":"fill_blank","text":"The students kept on shouting and screaming, so the classroom was very ___ (noise).","answer":"noisy"},
+        {"id":"ge-P2-L-5","paper":2,"section":"L","type":"fill_blank","text":"The movie is based on the ___ (truth) story of a London gangster.","answer":"true"},
+        {"id":"ge-P3-G-1","paper":3,"section":"G","type":"fill_blank","text":"He is not very ___ (hope) about the outcome of the interview.","answer":"hopeful"},
+        {"id":"ge-P3-G-2","paper":3,"section":"G","type":"fill_blank","text":"Mr Ma has ___ (kind) offered to loan all the plants required for the exhibit.","answer":"kindly"},
+        {"id":"ge-P3-G-3","paper":3,"section":"G","type":"fill_blank","text":"___ (luck), the museum was not damaged by the earthquake.","answer":"luckily"},
+        {"id":"ge-P3-G-4","paper":3,"section":"G","type":"fill_blank","text":"She stood up and walked away from the television ___ (obey) down the hallway to her room.","answer":"obediently"},
+        {"id":"ge-P3-G-5","paper":3,"section":"G","type":"fill_blank","text":"I looked Emily in the eyes and told her the ___ (true).","answer":"truth"},
+        {"id":"ge-P4-F-1","paper":4,"section":"F","type":"fill_blank","text":"When questioned by the police, it is wise to tell the ___ (truth) rather than lies.","answer":"truth"},
+        {"id":"ge-P4-F-2","paper":4,"section":"F","type":"fill_blank","text":"Mr Chan promised to support our event, so I am quite ___ (hope) that he will come to our ceremony today.","answer":"hopeful"},
+        {"id":"ge-P4-F-3","paper":4,"section":"F","type":"fill_blank","text":"Tiffany is absent from work because she fell ___ (ill).","answer":"ill"},
+        {"id":"ge-P4-F-4","paper":4,"section":"F","type":"fill_blank","text":"Please ___ (kind) remove all your rubbish when you leave the hall.","answer":"kindly"},
+        {"id":"ge-P4-F-5","paper":4,"section":"F","type":"fill_blank","text":"Bob is a ___ (luck) boy because he won the lottery twice in a year.","answer":"lucky"},
+        {"id":"ge-P4-F-6","paper":4,"section":"F","type":"fill_blank","text":"You must ___ (obedience) the orders of the staff in the fun fair or else they may ask you to leave.","answer":"obey"}
+      ]
+    },
+    {
+      "name": "Synonyms",
+      "questions": [
+        {"id":"ge-P1-M-1","paper":1,"section":"M","type":"fill_blank","text":"Replace the underlined word with a synonym:\n\"The children were excited to take part in the competition.\" (excited)","answer":"thrilled / eager / enthusiastic"},
+        {"id":"ge-P1-M-2","paper":1,"section":"M","type":"fill_blank","text":"Replace the underlined word with a synonym:\n\"Yesterday, we went shopping and Mum bought many dresses.\" (bought)","answer":"purchased"},
+        {"id":"ge-P1-M-3","paper":1,"section":"M","type":"fill_blank","text":"Replace the underlined word with a synonym:\n\"The police caught the thieves who broke into the house last night.\" (thieves)","answer":"burglars / robbers"},
+        {"id":"ge-P1-M-4","paper":1,"section":"M","type":"fill_blank","text":"Replace the underlined word with a synonym:\n\"The judge blew the whistle to stop the game.\" (stop)","answer":"halt / end"},
+        {"id":"ge-P2-H-1","paper":2,"section":"H","type":"fill_blank","text":"Replace the underlined word with a synonym:\n\"There were some loose wires hanging out of the wall.\" (loose)","answer":"free / slack / detached"},
+        {"id":"ge-P2-H-2","paper":2,"section":"H","type":"fill_blank","text":"Replace the underlined word with a synonym:\n\"We saw an unusual animal in the forest that none of us had ever seen before.\" (unusual)","answer":"rare / strange / extraordinary"},
+        {"id":"ge-P2-H-3","paper":2,"section":"H","type":"fill_blank","text":"Replace the underlined word with a synonym:\n\"With a wave of his hand, the magician made the rabbit disappear.\" (disappear)","answer":"vanish"},
+        {"id":"ge-P2-H-4","paper":2,"section":"H","type":"fill_blank","text":"Replace the underlined word with a synonym:\n\"We spent hours exploring the huge desert, and it felt like it would never end.\" (huge)","answer":"vast / enormous / immense"},
+        {"id":"ge-P3-H-1","paper":3,"section":"H","type":"fill_blank","text":"Replace the underlined word with a synonym:\n\"Our father would be excited at how well you've done.\" (excited)","answer":"thrilled / delighted / pleased"},
+        {"id":"ge-P3-H-2","paper":3,"section":"H","type":"fill_blank","text":"Replace the underlined word with a synonym:\n\"Some foreign students feel that there is not a lot to do for entertainment in a small town.\" (entertainment)","answer":"amusement / recreation"},
+        {"id":"ge-P3-H-3","paper":3,"section":"H","type":"fill_blank","text":"Replace the underlined word with a synonym:\n\"In the beach town, the temperature seldom falls below thirty-three degrees Celsius.\" (seldom)","answer":"rarely / hardly ever"},
+        {"id":"ge-P3-H-4","paper":3,"section":"H","type":"fill_blank","text":"Replace the underlined word with a synonym:\n\"Every year, the class gets to choose a student to be the class monitor.\" (choose)","answer":"elect / select / pick"},
+        {"id":"ge-P4-H-1","paper":4,"section":"H","type":"fill_blank","text":"Replace the underlined word with a synonym:\n\"Angel knows many funny magic tricks.\" (funny)","answer":"amusing / entertaining"},
+        {"id":"ge-P4-H-2","paper":4,"section":"H","type":"fill_blank","text":"Replace the underlined word with a synonym:\n\"Stella is a bit unusual. She hates modern music and loves classical opera.\" (unusual)","answer":"strange / peculiar / odd"},
+        {"id":"ge-P4-H-3","paper":4,"section":"H","type":"fill_blank","text":"Replace the underlined word with a synonym:\n\"Sophie was appointed as the judge of this game.\" (judge)","answer":"referee / arbiter"},
+        {"id":"ge-P4-H-4","paper":4,"section":"H","type":"fill_blank","text":"Replace the underlined word with a synonym:\n\"The ghost story was about a girl who would vanish whenever someone tried to find her.\" (vanish)","answer":"disappear"}
+      ]
+    },
+    {
+      "name": "Antonyms",
+      "questions": [
+        {"id":"ge-P1-N-1","paper":1,"section":"N","type":"fill_blank","text":"Replace the underlined word with its antonym:\n\"It is healthy to eat these kinds of food.\" (healthy)","answer":"unhealthy"},
+        {"id":"ge-P1-N-2","paper":1,"section":"N","type":"fill_blank","text":"Replace the underlined word with its antonym:\n\"The scientist put the plants in a tank of deep water.\" (deep)","answer":"shallow"},
+        {"id":"ge-P1-N-3","paper":1,"section":"N","type":"fill_blank","text":"Replace the underlined word with its antonym:\n\"In life, some people choose to follow, while others prefer to observe.\" (follow)","answer":"lead"},
+        {"id":"ge-P1-N-4","paper":1,"section":"N","type":"fill_blank","text":"Replace the underlined word with its antonym:\n\"This kind of behavior is quite rare in children of that age.\" (rare)","answer":"common"},
+        {"id":"ge-P2-I-1","paper":2,"section":"I","type":"fill_blank","text":"Replace the underlined word with its antonym:\n\"The students looked prepared as the teacher handed out the surprise test.\" (prepared)","answer":"unprepared"},
+        {"id":"ge-P2-I-2","paper":2,"section":"I","type":"fill_blank","text":"Replace the underlined word with its antonym:\n\"Many cultures bless food after meals, as well as before.\" (bless)","answer":"curse"},
+        {"id":"ge-P2-I-3","paper":2,"section":"I","type":"fill_blank","text":"Replace the underlined word with its antonym:\n\"We walked a little nearer to see if we could find a better place to sit.\" (nearer)","answer":"farther / further"},
+        {"id":"ge-P2-I-4","paper":2,"section":"I","type":"fill_blank","text":"Replace the underlined word with its antonym:\n\"We are in complete ignorance of your plans.\" (ignorance)","answer":"knowledge / awareness"},
+        {"id":"ge-P3-I-1","paper":3,"section":"I","type":"fill_blank","text":"Replace the underlined word with its antonym:\n\"He will be considered a strong leader.\" (strong)","answer":"weak"},
+        {"id":"ge-P3-I-2","paper":3,"section":"I","type":"fill_blank","text":"Replace the underlined word with its antonym:\n\"We all waited for the principal to finish the speech.\" (finish)","answer":"begin / start"},
+        {"id":"ge-P3-I-3","paper":3,"section":"I","type":"fill_blank","text":"Replace the underlined word with its antonym:\n\"Pamela led Hailey into the room.\" (led)","answer":"followed"},
+        {"id":"ge-P3-I-4","paper":3,"section":"I","type":"fill_blank","text":"Replace the underlined word with its antonym:\n\"The museum had a special section about peace and how soldiers lived during battle.\" (peace)","answer":"war / conflict"},
+        {"id":"ge-P4-I-1","paper":4,"section":"I","type":"fill_blank","text":"Replace the underlined word with its antonym:\n\"My puppy is very sick.\" (sick)","answer":"healthy / well"},
+        {"id":"ge-P4-I-2","paper":4,"section":"I","type":"fill_blank","text":"Replace the underlined word with its antonym:\n\"The door handle is loose.\" (loose)","answer":"tight / firm"},
+        {"id":"ge-P4-I-3","paper":4,"section":"I","type":"fill_blank","text":"Replace the underlined word with its antonym:\n\"The pilot was extremely reckless while landing the plane in bad weather.\" (reckless)","answer":"careful / cautious"},
+        {"id":"ge-P4-I-4","paper":4,"section":"I","type":"fill_blank","text":"Replace the underlined word with its antonym:\n\"The doctor said her bones were very strong.\" (strong)","answer":"weak / fragile"}
+      ]
+    },
+    {
+      "name": "Sequencing",
+      "questions": [
+        {
+          "id": "ge-P1-G-1",
+          "paper": 1,
+          "section": "G",
+          "type": "short_answer",
+          "text": "Rearrange sentences 1–5 in the correct order:\n1. The result of this was the production of the atom bomb.\n2. These were Germany and Japan who posed strong opposition to America.\n3. In 1945, America faced two powerful enemies in the world war.\n4. The government ordered the scientists to conduct research and produce a new deadly weapon.\n5. America found traditional weapons not powerful enough to crush them.\n\nWrite your answer as: ___ → ___ → ___ → ___ → ___",
+          "answer": "3 → 2 → 5 → 4 → 1"
+        },
+        {
+          "id": "ge-P2-N-1",
+          "paper": 2,
+          "section": "N",
+          "type": "short_answer",
+          "text": "Rearrange sentences 1–5 in the correct order:\n1. Eventually, they discovered how to grow crops and domesticate animals.\n2. Fewer people are needed to help them.\n3. In the Stone Age, humans sustained themselves by hunting animals and gathering seasonal fruit for food.\n4. Modern farmers produce large quantities of food with the help of machines.\n5. Today, there are not as many farmers as there were in the past.\n\nWrite your answer as: ___ → ___ → ___ → ___ → ___",
+          "answer": "3 → 1 → 4 → 2 → 5"
+        },
+        {
+          "id": "ge-P3-F-1",
+          "paper": 3,
+          "section": "F",
+          "type": "short_answer",
+          "text": "Rearrange sentences a–e in the correct order:\na. That year the US table tennis team was invited on an all-expense paid trip to play in China.\nb. The New York Times called the event the 'pong heard round the world' and the name 'ping-pong diplomacy' was born.\nc. They were the first group of Americans to be allowed into mainland China since the communist take-over in 1949.\nd. However, in 1971, table tennis played an important part in the cold war between China and the US.\ne. It was shortly followed by a visit to China by President Richard Nixon.\n\nWrite your answer as: ___ → ___ → ___ → ___ → ___",
+          "answer": "d → a → c → b → e"
+        }
+      ]
+    },
+    {
+      "name": "Proofreading",
+      "questions": [
+        {"id":"ge-P1-K-1","paper":1,"section":"K","type":"short_answer","text":"Find the mistake (if any) in this line — write the correction, or ✓ if correct:\n\n\"With him, the world might still be a dark place.\"","answer":"with → without"},
+        {"id":"ge-P1-K-2","paper":1,"section":"K","type":"short_answer","text":"Find the mistake (if any) in this line — write the correction, or ✓ if correct:\n\n\"About every two week he created something new.\"","answer":"week → weeks"},
+        {"id":"ge-P1-K-3","paper":1,"section":"K","type":"short_answer","text":"Find the mistake (if any) in this line — write the correction, or ✓ if correct:\n\n\"His mother, which was a former teacher, taught him a few things.\"","answer":"which → who"},
+        {"id":"ge-P1-K-4","paper":1,"section":"K","type":"short_answer","text":"Find the mistake (if any) in this line — write the correction, or ✓ if correct:\n\n\"was a former teacher, taught him a few things.\"","answer":"✓"},
+        {"id":"ge-P1-K-5","paper":1,"section":"K","type":"short_answer","text":"Find the mistake (if any) in this line — write the correction, or ✓ if correct:\n\n\"Thomas became a newsboy on a train when he was twelve.\"","answer":"✓"},
+        {"id":"ge-P1-K-6","paper":1,"section":"K","type":"short_answer","text":"Find the mistake (if any) in this line — write the correction, or ✓ if correct:\n\n\"set a laboratory in the baggage care of the train so that he could continue his experiments.\"","answer":"care → car"},
+        {"id":"ge-P2-O-1","paper":2,"section":"O","type":"short_answer","text":"Find the mistake (if any) in this line — write the correction, or ✓ if correct:\n\n\"Although he met several princesses, but none of them was the one that he liked.\"","answer":"cross out 'but'"},
+        {"id":"ge-P2-O-2","paper":2,"section":"O","type":"short_answer","text":"Find the mistake (if any) in this line — write the correction, or ✓ if correct:\n\n\"It was raining heavy one evening.\"","answer":"heavy → heavily"},
+        {"id":"ge-P2-O-3","paper":2,"section":"O","type":"short_answer","text":"Find the mistake (if any) in this line — write the correction, or ✓ if correct:\n\n\"he saw a young lady leaned against the wall.\"","answer":"leaned → leaning"},
+        {"id":"ge-P2-O-4","paper":2,"section":"O","type":"short_answer","text":"Find the mistake (if any) in this line — write the correction, or ✓ if correct:\n\n\"clothes were worn and dripping wet with water. She said that she felt weak because she had not eaten anything for a few days.\"","answer":"✓"},
+        {"id":"ge-P2-O-5","paper":2,"section":"O","type":"short_answer","text":"Find the mistake (if any) in this line — write the correction, or ✓ if correct:\n\n\"After saying that, she fell down and passed away. Immediately, the guard brought the lady in and sent for the doctor.\"","answer":"✓"},
+        {"id":"ge-P3-N-1","paper":3,"section":"N","type":"short_answer","text":"Find the mistake (if any) in this line — write the correction, or ✓ if correct:\n\n\"the weather there was cool, but it was sunny. After the flight landed, I took my luggage\"","answer":"cross out 'but'"},
+        {"id":"ge-P3-N-2","paper":3,"section":"N","type":"short_answer","text":"Find the mistake (if any) in this line — write the correction, or ✓ if correct:\n\n\"and went through the Immigration Department. My business partner in Japan drove me to my hotel.\"","answer":"✓"},
+        {"id":"ge-P3-N-3","paper":3,"section":"N","type":"short_answer","text":"Find the mistake (if any) in this line — write the correction, or ✓ if correct:\n\n\"My partner said we would meet tomorrow, so that I had the rest of the day to ourselves.\"","answer":"tomorrow → the next day"},
+        {"id":"ge-P3-N-4","paper":3,"section":"N","type":"short_answer","text":"Find the mistake (if any) in this line — write the correction, or ✓ if correct:\n\n\"ourselves. I went out and had some Japanese food. Then I made use of my free time to do some shopping in downtown Tokyo.\"","answer":"ourselves → myself"},
+        {"id":"ge-P3-N-5","paper":3,"section":"N","type":"short_answer","text":"Find the mistake (if any) in this line — write the correction, or ✓ if correct:\n\n\"Everything were fantastic and I bought quite a lot of souvenirs.\"","answer":"were → was"},
+        {"id":"ge-P4-N-1","paper":4,"section":"N","type":"short_answer","text":"Find the mistake (if any) in this line — write the correction, or ✓ if correct:\n\n\"A deer was drinking water from the river in a sunny morning.\"","answer":"in → on"},
+        {"id":"ge-P4-N-2","paper":4,"section":"N","type":"short_answer","text":"Find the mistake (if any) in this line — write the correction, or ✓ if correct:\n\n\"The crocodile gripped its leg firmly with its tooth.\"","answer":"tooth → teeth"},
+        {"id":"ge-P4-N-3","paper":4,"section":"N","type":"short_answer","text":"Find the mistake (if any) in this line — write the correction, or ✓ if correct:\n\n\"Although the deer was in great pain, but it didn't show it on its face.\"","answer":"cross out 'but'"},
+        {"id":"ge-P4-N-4","paper":4,"section":"N","type":"short_answer","text":"Find the mistake (if any) in this line — write the correction, or ✓ if correct:\n\n\"'Good morning, Crocodile,' said the deer. 'What are you doing here?' The crocodile\"","answer":"✓"},
+        {"id":"ge-P4-N-5","paper":4,"section":"N","type":"short_answer","text":"Find the mistake (if any) in this line — write the correction, or ✓ if correct:\n\n\"didn't make any response. It said to himself, 'I must not open my mouth.'\"","answer":"✓"}
+      ]
+    },
+    {
+      "name": "Adverbs of Frequency",
+      "questions": [
+        {"id":"ge-P2-G-1","paper":2,"section":"G","type":"mcq","text":"Patricia: I practise piano ___. I try to play every day to improve my skills.","options":["daily","weekly","monthly","seldom"],"answer":"daily"},
+        {"id":"ge-P2-G-2","paper":2,"section":"G","type":"mcq","text":"Patricia: I usually play the guitar, but I practise it ___. I usually play for about an hour every weekend.","options":["weekly","daily","monthly","fortnightly"],"answer":"weekly"},
+        {"id":"ge-P2-G-3","paper":2,"section":"G","type":"mcq","text":"Patricia: I am a lazy girl. I ___ do my homework right away. I always wait until the last minute.","options":["never","seldom","daily","fortnightly"],"answer":"never"},
+        {"id":"ge-P2-G-4","paper":2,"section":"G","type":"mcq","text":"Patricia: We meet ___. We have a catch-up every two weeks, usually at the park.","options":["fortnightly","weekly","monthly","seldom"],"answer":"fortnightly"},
+        {"id":"ge-P4-J-1","paper":4,"section":"J","type":"mcq","text":"Mrs Chan: My daughter ___ goes to the library. She only goes there when she needs to borrow books for homework.","options":["seldom","never","daily","fortnightly"],"answer":"seldom"},
+        {"id":"ge-P4-J-2","paper":4,"section":"J","type":"mcq","text":"Mrs Lee: My children go to the library every Wednesday. They go there ___.","options":["weekly","daily","fortnightly","seldom"],"answer":"weekly"},
+        {"id":"ge-P4-J-3","paper":4,"section":"J","type":"mcq","text":"Mrs Lee: There's another session on Saturdays every two weeks. So you only need to attend ___.","options":["fortnightly","weekly","monthly","seldom"],"answer":"fortnightly"},
+        {"id":"ge-P4-J-4","paper":4,"section":"J","type":"mcq","text":"Mrs Lee: I subscribe to the Morning Sun, which is delivered to my door ___.","options":["daily","weekly","fortnightly","monthly"],"answer":"daily"}
+      ]
+    },
+    {
+      "name": "Reading Comprehension",
+      "questions": [
+        {"id":"ge-P3-P-1","paper":3,"section":"P","type":"short_answer","text":"Silver Holiday Hotel has 4 room types: Standard Single ($750), Parlour View Twin/Double ($850), Harbour View Twin/Double ($975), and Family Suite ($1,050). Special offer valid: 21 Oct – 31 Dec (NOT valid 24–26 Dec). \"Bring your membership card and get a check-in gift.\"\n\nQ: How many different kinds of rooms are available in Silver Holiday Hotel?","answer":"4 kinds of rooms"},
+        {"id":"ge-P3-P-2","paper":3,"section":"P","type":"short_answer","text":"Silver Holiday Hotel: \"Bring your membership card and get a check-in gift.\"\n\nQ: What do you need to show the staff when you check in to receive the check-in gift?","answer":"Your membership card"},
+        {"id":"ge-P3-P-3","paper":3,"section":"P","type":"short_answer","text":"Silver Holiday Hotel: Special offer valid 21 Oct – 31 Dec, but NOT on 24–26 December. Family Suite: $1,050 per night.\n\nQ: Alice wants to stay one night in the Family Suite with her parents on 23rd December. How much does she pay?","answer":"$1,050 (23rd Dec is within the valid period — not on 24–26 Dec)"},
+        {"id":"ge-P4-P-1","paper":4,"section":"P","type":"short_answer","text":"7th Annual Lunar New Year Bazaar\nDate: February 13th–19th, 3:00 p.m.–11:00 p.m.\nOn 13th February (Lunar New Year Day), the bazaar stays open until 11:45 p.m.\nFree admission on 13th February.\n\nQ: George and his family go to the bazaar on 13th February in the evening. How much longer can they stay compared to other days?","answer":"45 minutes longer (closes at 11:45 p.m. instead of 11:00 p.m.)"},
+        {"id":"ge-P4-P-2","paper":4,"section":"P","type":"short_answer","text":"7th Annual Lunar New Year Bazaar\nDragon Dance: every day at 6 p.m. at the Jordan Fairground (beside the sports ground).\n\nQ: Jenny will meet her friend at the bazaar at 7 p.m. Can she watch the Dragon Dance?","answer":"No. The Dragon Dance is at 6 p.m. but Jenny arrives at 7 p.m., so she will miss it."},
+        {"id":"ge-P4-P-3","paper":4,"section":"P","type":"short_answer","text":"7th Annual Lunar New Year Bazaar\nGet a red packet (cash or coupons) for every single purchase over $200.\n\nQ: I made a purchase of $175 at one stall and $40 at another food stall. Do I get a red packet?","answer":"No. Each purchase must be over $200 on its own. $175 and $40 are separate purchases — they cannot be combined."}
+      ]
+    }
+  ]
+}

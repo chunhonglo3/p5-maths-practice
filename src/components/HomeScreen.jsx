@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import { CATEGORIES, CATEGORY_COLORS, seedQuestions } from '../data/questions'
 import { SCIENCE_CATEGORIES, SCIENCE_CATEGORY_COLORS, SCIENCE_SHORT_NAMES, scienceQuestions } from '../data/science_questions'
+import { ENGLISH_CATEGORIES, ENGLISH_CATEGORY_COLORS, ENGLISH_SHORT_NAMES, englishQuestions } from '../data/english_questions'
 
 const DIFFICULTY_OPTIONS = [
   { value: 'all',    label: 'All',    sublabel: 'All Levels' },
@@ -29,6 +30,7 @@ const MATHS_SHORT_NAMES = {
 const SUBJECTS = [
   { id: 'maths',   label: 'Maths',   activeClass: 'bg-orange-500 text-white border-orange-500',   inactiveClass: 'text-orange-600 border-orange-400' },
   { id: 'science', label: 'Science', activeClass: 'bg-emerald-500 text-white border-emerald-500', inactiveClass: 'text-emerald-600 border-emerald-400' },
+  { id: 'english', label: 'English', activeClass: 'bg-blue-500 text-white border-blue-500',       inactiveClass: 'text-blue-600 border-blue-400' },
 ]
 
 const SUBJECT_META = {
@@ -40,6 +42,11 @@ const SUBJECT_META = {
     categoryColors: CATEGORY_COLORS,
     shortNames: MATHS_SHORT_NAMES,
     allQuestions: seedQuestions,
+    topicAllActive: 'bg-orange-500 text-white border-orange-500',
+    topicAllInactive: 'bg-white text-orange-600 border-orange-400',
+    difficultyActive: 'bg-orange-500 text-white border-orange-500 shadow-md scale-105',
+    quizCountActive: 'bg-orange-500 text-white border-orange-500 scale-110',
+    quizBtnClass: 'bg-amber-500 hover:bg-amber-600',
   },
   science: {
     title: 'P5 Science Practice',
@@ -49,6 +56,25 @@ const SUBJECT_META = {
     categoryColors: SCIENCE_CATEGORY_COLORS,
     shortNames: SCIENCE_SHORT_NAMES,
     allQuestions: scienceQuestions,
+    topicAllActive: 'bg-emerald-500 text-white border-emerald-500',
+    topicAllInactive: 'bg-white text-emerald-600 border-emerald-400',
+    difficultyActive: 'bg-emerald-500 text-white border-emerald-500 shadow-md scale-105',
+    quizCountActive: 'bg-emerald-500 text-white border-emerald-500 scale-110',
+    quizBtnClass: 'bg-emerald-500 hover:bg-emerald-600',
+  },
+  english: {
+    title: 'P5 English Practice',
+    subtitle: 'Hong Kong Primary 5 · Term 3 Revision',
+    titleColor: 'text-blue-600',
+    categories: ENGLISH_CATEGORIES,
+    categoryColors: ENGLISH_CATEGORY_COLORS,
+    shortNames: ENGLISH_SHORT_NAMES,
+    allQuestions: englishQuestions,
+    topicAllActive: 'bg-blue-500 text-white border-blue-500',
+    topicAllInactive: 'bg-white text-blue-600 border-blue-400',
+    difficultyActive: 'bg-blue-500 text-white border-blue-500 shadow-md scale-105',
+    quizCountActive: 'bg-blue-500 text-white border-blue-500 scale-110',
+    quizBtnClass: 'bg-blue-500 hover:bg-blue-600',
   },
 }
 
@@ -71,7 +97,8 @@ export default function HomeScreen({ onStart, subject, onSubjectChange }) {
   }, [subject])
 
   const meta = SUBJECT_META[subject]
-  const { title, subtitle, titleColor, categories, categoryColors, shortNames, allQuestions } = meta
+  const { title, subtitle, titleColor, categories, categoryColors, shortNames, allQuestions,
+          topicAllActive, topicAllInactive, difficultyActive, quizCountActive, quizBtnClass } = meta
 
   function toggleCategory(cat) {
     setSelectedCategories(prev =>
@@ -120,9 +147,7 @@ export default function HomeScreen({ onStart, subject, onSubjectChange }) {
             <button
               onClick={() => setSelectedCategories([])}
               className={`px-3 sm:px-4 py-2.5 rounded-full font-bold text-sm border-2 transition-all touch-manipulation ${
-                allSelected
-                  ? 'bg-orange-500 text-white border-orange-500'
-                  : 'bg-white text-orange-600 border-orange-400'
+                allSelected ? topicAllActive : topicAllInactive
               }`}
             >
               All Topics
@@ -156,9 +181,7 @@ export default function HomeScreen({ onStart, subject, onSubjectChange }) {
                 key={opt.value}
                 onClick={() => setDifficulty(opt.value)}
                 className={`py-3 px-1 rounded-2xl font-bold border-2 transition-all text-center touch-manipulation ${
-                  difficulty === opt.value
-                    ? 'bg-orange-500 text-white border-orange-500 shadow-md scale-105'
-                    : 'bg-white text-gray-600 border-gray-200'
+                  difficulty === opt.value ? difficultyActive : 'bg-white text-gray-600 border-gray-200'
                 }`}
               >
                 <div className="text-sm sm:text-base">{opt.label}</div>
@@ -206,7 +229,7 @@ export default function HomeScreen({ onStart, subject, onSubjectChange }) {
                 disabled={n > available}
                 className={`w-11 h-11 sm:w-12 sm:h-12 rounded-2xl font-black border-2 transition-all touch-manipulation text-sm sm:text-base ${
                   quizCount === n
-                    ? 'bg-orange-500 text-white border-orange-500 scale-110'
+                    ? quizCountActive
                     : n > available
                       ? 'bg-gray-100 text-gray-300 border-gray-200 cursor-not-allowed'
                       : 'bg-white text-gray-700 border-gray-300'
@@ -219,7 +242,7 @@ export default function HomeScreen({ onStart, subject, onSubjectChange }) {
           <button
             onClick={() => go('quiz')}
             disabled={available === 0}
-            className="w-full bg-amber-500 hover:bg-amber-600 disabled:bg-gray-300 active:scale-95 text-white font-black text-lg sm:text-xl py-4 rounded-2xl shadow-lg transition-all touch-manipulation"
+            className={`w-full disabled:bg-gray-300 active:scale-95 text-white font-black text-lg sm:text-xl py-4 rounded-2xl shadow-lg transition-all touch-manipulation ${quizBtnClass}`}
           >
             Start Quiz · {Math.min(quizCount, available)} questions
           </button>
