@@ -1,5 +1,6 @@
 import { useState, useMemo } from 'react'
 import { seedQuestions } from './data/questions'
+import { scienceQuestions } from './data/science_questions'
 import HomeScreen from './components/HomeScreen'
 import PracticeMode from './components/PracticeMode'
 import QuizMode from './components/QuizMode'
@@ -14,18 +15,24 @@ function shuffle(arr) {
   return a
 }
 
+const ALL_QUESTIONS = {
+  maths: seedQuestions,
+  science: scienceQuestions,
+}
+
 export default function App() {
   const [screen, setScreen] = useState('home')
+  const [subject, setSubject] = useState('maths')
   const [selectedCategories, setSelectedCategories] = useState([])
   const [selectedDifficulty, setSelectedDifficulty] = useState('all')
   const [quizCount, setQuizCount] = useState(10)
 
   const filteredQuestions = useMemo(() => {
-    let qs = seedQuestions
+    let qs = ALL_QUESTIONS[subject]
     if (selectedCategories.length > 0) qs = qs.filter(q => selectedCategories.includes(q.category))
     if (selectedDifficulty !== 'all')  qs = qs.filter(q => q.difficulty === selectedDifficulty)
     return shuffle(qs)
-  }, [selectedCategories, selectedDifficulty, screen])
+  }, [subject, selectedCategories, selectedDifficulty, screen])
 
   const quizQuestions = useMemo(() => filteredQuestions.slice(0, quizCount), [filteredQuestions, quizCount])
 
@@ -49,9 +56,20 @@ export default function App() {
         onHome={() => setScreen('home')}
         selectedCategories={selectedCategories}
         selectedDifficulty={selectedDifficulty}
+        subject={subject}
       />
     )
   }
 
-  return <HomeScreen onStart={go} />
+  return (
+    <HomeScreen
+      onStart={go}
+      subject={subject}
+      onSubjectChange={newSubject => {
+        setSubject(newSubject)
+        setSelectedCategories([])
+        setSelectedDifficulty('all')
+      }}
+    />
+  )
 }

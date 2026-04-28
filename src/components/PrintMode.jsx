@@ -1,7 +1,9 @@
 import { DIFFICULTY_LABELS } from '../data/questions'
 import { MathText } from '../utils/mathRenderer'
 
-export default function PrintMode({ questions, onHome, selectedCategories, selectedDifficulty }) {
+const SUBJECT_LABEL = { maths: 'Mathematics', science: 'Science' }
+
+export default function PrintMode({ questions, onHome, selectedCategories, selectedDifficulty, subject = 'maths' }) {
   const topicLabel = selectedCategories.length === 0 ? 'All Topics' : selectedCategories.join(', ')
   const diffLabel = selectedDifficulty === 'all' ? 'All Levels' : DIFFICULTY_LABELS[selectedDifficulty]?.label
 
@@ -38,7 +40,7 @@ export default function PrintMode({ questions, onHome, selectedCategories, selec
         {/* ── QUESTION SHEET ──────────────────────────────────────── */}
         <div className="text-center mb-6">
           <h1 className="text-xl sm:text-2xl font-black text-gray-800">
-            Primary 5 Mathematics Practice Paper
+            Primary 5 {SUBJECT_LABEL[subject]} Practice Paper
           </h1>
           <p className="text-sm text-gray-600 mt-1">Topic: {topicLabel} · Level: {diffLabel}</p>
           {/* Name/date row — stack on mobile, inline on larger screens */}

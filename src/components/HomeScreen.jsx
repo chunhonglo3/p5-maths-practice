@@ -1,5 +1,6 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { CATEGORIES, CATEGORY_COLORS, seedQuestions } from '../data/questions'
+import { SCIENCE_CATEGORIES, SCIENCE_CATEGORY_COLORS, SCIENCE_SHORT_NAMES, scienceQuestions } from '../data/science_questions'
 
 const DIFFICULTY_OPTIONS = [
   { value: 'all',    label: 'All',    sublabel: 'All Levels' },
@@ -10,8 +11,7 @@ const DIFFICULTY_OPTIONS = [
 
 const QUIZ_COUNTS = [5, 10, 20, 30]
 
-// Short display name for category chips
-const SHORT_NAME = {
+const MATHS_SHORT_NAMES = {
   'Place Value & Rounding':                    'Place Value',
   'Fractions & Mixed Numbers':                 'Fractions',
   'Decimals & Decimal Computation':            'Decimals',
@@ -26,17 +26,52 @@ const SHORT_NAME = {
   'Setting Up Calculations':                   'Setting Up',
 }
 
-function countFor(cats, diff) {
-  return seedQuestions.filter(q =>
+const SUBJECTS = [
+  { id: 'maths',   label: 'Maths',   activeClass: 'bg-orange-500 text-white border-orange-500',   inactiveClass: 'text-orange-600 border-orange-400' },
+  { id: 'science', label: 'Science', activeClass: 'bg-emerald-500 text-white border-emerald-500', inactiveClass: 'text-emerald-600 border-emerald-400' },
+]
+
+const SUBJECT_META = {
+  maths: {
+    title: 'P5 Maths Practice',
+    subtitle: 'Hong Kong Primary 5 · Past Paper Questions',
+    titleColor: 'text-orange-600',
+    categories: CATEGORIES,
+    categoryColors: CATEGORY_COLORS,
+    shortNames: MATHS_SHORT_NAMES,
+    allQuestions: seedQuestions,
+  },
+  science: {
+    title: 'P5 Science Practice',
+    subtitle: 'Hong Kong Primary 5 · Term 3 Revision',
+    titleColor: 'text-emerald-600',
+    categories: SCIENCE_CATEGORIES,
+    categoryColors: SCIENCE_CATEGORY_COLORS,
+    shortNames: SCIENCE_SHORT_NAMES,
+    allQuestions: scienceQuestions,
+  },
+}
+
+function countFor(allQuestions, cats, diff) {
+  return allQuestions.filter(q =>
     (cats.length === 0 || cats.includes(q.category)) &&
     (diff === 'all' || q.difficulty === diff)
   ).length
 }
 
-export default function HomeScreen({ onStart }) {
+export default function HomeScreen({ onStart, subject, onSubjectChange }) {
   const [selectedCategories, setSelectedCategories] = useState([])
   const [difficulty, setDifficulty] = useState('all')
   const [quizCount, setQuizCount] = useState(10)
+
+  // Reset selections whenever subject changes
+  useEffect(() => {
+    setSelectedCategories([])
+    setDifficulty('all')
+  }, [subject])
+
+  const meta = SUBJECT_META[subject]
+  const { title, subtitle, titleColor, categories, categoryColors, shortNames, allQuestions } = meta
 
   function toggleCategory(cat) {
     setSelectedCategories(prev =>
@@ -45,7 +80,7 @@ export default function HomeScreen({ onStart }) {
   }
 
   const allSelected = selectedCategories.length === 0
-  const available = countFor(selectedCategories, difficulty)
+  const available = countFor(allQuestions, selectedCategories, difficulty)
 
   function go(mode) {
     onStart(mode, { categories: selectedCategories, difficulty, count: quizCount })
@@ -55,14 +90,27 @@ export default function HomeScreen({ onStart }) {
     <div className="min-h-dvh bg-gradient-to-b from-amber-50 to-orange-50 p-4 sm:p-6 md:p-8 pb-10">
       <div className="max-w-3xl mx-auto">
 
+        {/* Subject tab bar */}
+        <div className="flex gap-2 mb-6 justify-center">
+          {SUBJECTS.map(s => (
+            <button
+              key={s.id}
+              onClick={() => onSubjectChange(s.id)}
+              className={`px-6 py-2.5 rounded-full font-black text-sm sm:text-base border-2 transition-all touch-manipulation ${
+                subject === s.id ? s.activeClass : `bg-white ${s.inactiveClass}`
+              }`}
+            >
+              {s.label}
+            </button>
+          ))}
+        </div>
+
         {/* Header */}
         <div className="text-center mb-6 sm:mb-8">
-          <h1 className="text-3xl sm:text-4xl font-black text-orange-600 mb-1 tracking-tight">
-            P5 Maths Practice
+          <h1 className={`text-3xl sm:text-4xl font-black mb-1 tracking-tight ${titleColor}`}>
+            {title}
           </h1>
-          <p className="text-base sm:text-lg text-gray-600">
-            Hong Kong Primary 5 · Past Paper Questions
-          </p>
+          <p className="text-base sm:text-lg text-gray-600">{subtitle}</p>
         </div>
 
         {/* Topic Picker */}
@@ -79,8 +127,8 @@ export default function HomeScreen({ onStart }) {
             >
               All Topics
             </button>
-            {CATEGORIES.map(cat => {
-              const c = CATEGORY_COLORS[cat] || {}
+            {categories.map(cat => {
+              const c = categoryColors[cat] || {}
               const active = selectedCategories.includes(cat)
               return (
                 <button
@@ -92,7 +140,7 @@ export default function HomeScreen({ onStart }) {
                       : `bg-white ${c.text} ${c.border}`
                   }`}
                 >
-                  {SHORT_NAME[cat] || cat}
+                  {shortNames[cat] || cat}
                 </button>
               )
             })}
