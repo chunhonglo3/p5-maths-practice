@@ -14,9 +14,9 @@
         {"id": "P3-B1", "paper": 3, "section": "B", "type": "short", "text": "Round off '3,069,784' to the nearest ten thousand.", "answer": "3,070,000"},
         {"id": "P2-B3", "paper": 2, "section": "B", "type": "short", "text": "What is the difference between the values of the digit '5' in '235,003' and '134,005'?", "answer": "4,995"},
         {"id": "P2-A1", "paper": 2, "section": "A", "type": "mcq", "text": "In 2009, the arrivals of passengers by air and by land in Hong Kong were 14,936,000 and 85,251,000 respectively. What was the difference in number between these two modes of transport? (Round off the number to the nearest million.)", "options": ["A. 100,000,000", "B. 99,000,000", "C. 71,000,000", "D. 70,000,000"], "answer": "D"},
-        {"id": "P2-A2", "paper": 2, "section": "A", "type": "mcq", "text": "If 243,678 > Y > 241,987, which is a possible value of Y?", "options": ["A. 244,687", "B. 243,688", "C. 242,424", "D. 241,977"], "answer": "B"},
-        {"id": "P4-A1", "paper": 4, "section": "A", "type": "mcq", "text": "What is the sum of the smallest 6-digit odd number and the largest 4-digit even number?", "options": ["A. 109,998", "B. 109,999", "C. 1,000,999", "D. 1,009,999"], "answer": "D"},
-        {"id": "P4-A2", "paper": 4, "section": "A", "type": "mcq", "text": "Which of the following has its value nearest to 4.5?", "options": ["A. 4.451", "B. 4.493", "C. 4.509", "D. 4.52"], "answer": "C"},
+        {"id": "P2-A2", "paper": 2, "section": "A", "type": "mcq", "text": "If 243,678 > Y > 241,987, which is a possible value of Y?", "options": ["A. 244,687", "B. 243,688", "C. 242,424", "D. 241,977"], "answer": "C"},
+        {"id": "P4-A1", "paper": 4, "section": "A", "type": "mcq", "text": "What is the sum of the smallest 6-digit odd number and the largest 4-digit even number?", "options": ["A. 109,998", "B. 109,999", "C. 1,000,999", "D. 1,009,999"], "answer": "B"},
+        {"id": "P4-A2", "paper": 4, "section": "A", "type": "mcq", "text": "Which of the following has its value nearest to 4.5?", "options": ["A. 4.451", "B. 4.493", "C. 4.509", "D. 4.52"], "answer": "B"},
         {"id": "P4-B1", "paper": 4, "section": "B", "type": "short", "text": "Round off the number '36,189,824' to the nearest ten thousand.", "answer": "36,190,000"},
         {"id": "P5-B1", "paper": 5, "section": "B", "type": "short", "text": "Mr. Chan has $456,217 in his bank account. Rewrite the amount of money he has to the nearest thousand dollars.", "answer": "$456,000"},
         {"id": "P5-A4", "paper": 5, "section": "A", "type": "mcq", "text": "What is the difference between the values of the digits '4' and '7' in the number '8,450,670'?", "options": ["A. 400,070", "B. 399,930", "C. 99,930", "D. 39,993"], "answer": "B"}
@@ -30,13 +30,13 @@
         {"id": "P3-B2", "paper": 3, "section": "B", "type": "short", "text": "6 1/4 − (5 1/2 − 3 5/7) = ?", "answer": "4 13/28"},
         {"id": "P3-B5", "paper": 3, "section": "B", "type": "short", "text": "4 2/7 ÷ 6 = ?", "answer": "5/7"},
         {"id": "P2-B4", "paper": 2, "section": "B", "type": "short", "text": "Arrange the following fractions in ascending order: 1 6/13, 1 17/39, 1 1/3, 2 1/13", "answer": "1 1/3, 1 17/39, 1 6/13, 2 1/13"},
-        {"id": "P2-B8", "paper": 2, "section": "B", "type": "short", "text": "10 5/7 ÷ 5/14 ÷ 5/8 = ?", "answer": "24"},
+        {"id": "P2-B8", "paper": 2, "section": "B", "type": "short", "text": "10 5/7 ÷ 5/14 ÷ 5/8 = ?", "answer": "48"},
         {"id": "P2-A9", "paper": 2, "section": "A", "type": "mcq", "text": "A 2 1/2 L bottle of grape juice is sold for $16. Ben drank 1/4 of a bottle. How much grape juice did he drink?", "options": ["A. 5/8 L", "B. 1 1/8 L", "C. 2 1/4 L", "D. 18 3/4 L"], "answer": "A"},
         {"id": "P5-B17", "paper": 5, "section": "B", "type": "short", "text": "6 5/6 − 2 7/8 − 3 1/2 = ?", "answer": "11/24"},
         {"id": "P5-B3", "paper": 5, "section": "B", "type": "short", "text": "7 23/35 − 4 4/5 = ?", "answer": "2 6/7"},
-        {"id": "P5-B7", "paper": 5, "section": "B", "type": "short", "text": "24 4/5 ÷ 2 9/13 ÷ 1 11/15 = ?", "answer": "9"},
+        {"id": "P5-B7", "paper": 5, "section": "B", "type": "short", "text": "24 4/5 ÷ 2 9/13 ÷ 1 11/15 = ?", "answer": "5 11/35"},
         {"id": "P5-B14", "paper": 5, "section": "B", "type": "short", "text": "Calculate 4 2/7 ÷ 6", "answer": "5/7"},
-        {"id": "P4-B4", "paper": 4, "section": "B", "type": "short", "text": "Katelyn has 4 5/8 L of paint. She pours them into small pots of 5/6 L. How much paint is left?", "answer": "1/24 L"},
+        {"id": "P4-B4", "paper": 4, "section": "B", "type": "short", "text": "Katelyn has 4 5/8 L of paint. She pours them into small pots of 5/6 L. How much paint is left?", "answer": "11/24 L"},
         {"id": "P4-B2", "paper": 4, "section": "B", "type": "short", "text": "There was 2 3/4 L of orange juice in a jar. Mary drank 7/8 L, Justin drank 7/16 L, and Fred drank 10/11 L. Who drank the most?", "answer": "Fred"}
       ]
     },
@@ -44,7 +44,7 @@
       "id": "decimals",
       "name": "Decimals & Decimal Computation",
       "questions": [
-        {"id": "P2-A7", "paper": 2, "section": "A", "type": "mcq", "text": "When calculating 1.42 × 0.9, Bella calculated 142 × 9 instead. Her answer is how many times that of the correct answer?", "options": ["A. 0.1", "B. 10", "C. 100", "D. 1000"], "answer": "C"},
+        {"id": "P2-A7", "paper": 2, "section": "A", "type": "mcq", "text": "When calculating 1.42 × 0.9, Bella calculated 142 × 9 instead. Her answer is how many times that of the correct answer?", "options": ["A. 0.1", "B. 10", "C. 100", "D. 1000"], "answer": "D"},
         {"id": "P2-A11", "paper": 2, "section": "A", "type": "mcq", "text": "Which of the following expressions is most suitable for estimating the value of 1.487 − 2.629 + 6.371?", "options": ["A. 1.4 − 2.6 + 6.3", "B. 2.6 − 1.4 + 6.3", "C. 2.6 − 1.5 + 6.4", "D. 6.4 + 1.5 − 2.6"], "answer": "A"},
         {"id": "P5-B5", "paper": 5, "section": "B", "type": "short", "text": "Mrs. Cheung baked a pound cake with 0.375 kg of flour and 0.125 kg of butter. How much flour was needed to bake 6 such cakes?", "answer": "2.25 kg"},
         {"id": "P4-A9", "paper": 4, "section": "A", "type": "mcq", "text": "Which of the following has the smallest value?", "options": ["A. 0.51 × 39", "B. 0.51 × 3.9", "C. 5.1 × 0.39", "D. 5.1 × 0.039"], "answer": "D"},
@@ -105,7 +105,7 @@
         {"id": "P2-B22", "paper": 2, "section": "B", "type": "short", "text": "Dick runs from a lamppost to another lamppost and back again three times each morning. He runs 532 4/5 m in total. What is the distance between the two lampposts?", "answer": "88 4/5 m"},
         {"id": "P2-B23", "paper": 2, "section": "B", "type": "short", "text": "A machine can produce a toy boat in 2 2/5 minutes. How many toy boats can be made in 1 hour?", "answer": "25"},
         {"id": "P2-B24", "paper": 2, "section": "B", "type": "short", "text": "Sam can carpet 1 m² of the floor in 1/3 hour. If he works 4 hours a day, find the area of the floor he can carpet in a week (5 working days).", "answer": "60 m²"},
-        {"id": "P2-B25", "paper": 2, "section": "B", "type": "short", "text": "70 2/5 kg of flour is packed into boxes. Each box carries 5 1/5 kg. How much flour is left?", "answer": "0 kg (exact — 70 2/5 ÷ 5 1/5 = 13 and 1/2 remainder check: 13 × 5 1/5 = 67 6/5... answer: 3/5 kg)"},
+        {"id": "P2-B25", "paper": 2, "section": "B", "type": "short", "text": "70 2/5 kg of flour is packed into boxes. Each box carries 5 1/5 kg. How much flour is left?", "answer": "2 4/5 kg"},
         {"id": "P2-B26", "paper": 2, "section": "B", "type": "short", "text": "The price of 4 2/5 m² of tiles is $27 1/2. Denise buys 7 m² of tiles. How much should she pay?", "answer": "$43.75"},
         {"id": "P3-B9", "paper": 3, "section": "B", "type": "short", "text": "Ronald pays two $20 notes for a toy bear priced at $24.80. How much change should he get?", "answer": "$15.20"},
         {"id": "P3-E2", "paper": 3, "section": "E", "type": "long", "text": "Each kilogram of organic potatoes costs $52.90. Sally buys 1,070 g of potatoes. How much should she pay? (Correct the answer to the nearest tenth.)", "answer": "$56.6"},
@@ -116,11 +116,11 @@
         {"id": "P4-B14", "paper": 4, "section": "B", "type": "short", "text": "3/4 dozen pieces of cake weigh 355 1/2 g. Find the weight of each piece of cake.", "answer": "39.5 g"},
         {"id": "P4-B15", "paper": 4, "section": "B", "type": "short", "text": "A piece of ribbon 12 1/2 m long is cut into 5 equal parts. Find the length of each part.", "answer": "2 1/2 m"},
         {"id": "P4-B16", "paper": 4, "section": "B", "type": "short", "text": "Sally has 12 1/2 kg of chicken wings. She puts 2/5 of the chicken wings into bags of 5/8 kg. How many bags does she need?", "answer": "8"},
-        {"id": "P4-B18", "paper": 4, "section": "B", "type": "short", "text": "A bottle can hold 2 1/5 L of water. A jar can hold 1 7/8 L. A pot can hold 4 11/20 L. How much more water can the jar and the pot hold in total than the bottle?", "answer": "4 3/20 L"},
+        {"id": "P4-B18", "paper": 4, "section": "B", "type": "short", "text": "A bottle can hold 2 1/5 L of water. A jar can hold 1 7/8 L. A pot can hold 4 11/20 L. How much more water can the jar and the pot hold in total than the bottle?", "answer": "4 9/40 L"},
         {"id": "P4-B6", "paper": 4, "section": "B", "type": "short", "text": "A 3/10 L bottle of olive oil costs $8 2/5. How many such bottles can be bought with $70?", "answer": "8"},
         {"id": "P4-E1", "paper": 4, "section": "E", "type": "long", "text": "Jim needs 1/5 h to make a model. At most how many models can he make in 1 1/4 h?", "answer": "6"},
         {"id": "P4-E2", "paper": 4, "section": "E", "type": "long", "text": "A pen is 14 3/10 cm long and a rubber is 5 4/5 cm long. The length of a pencil is 2 1/4 cm shorter than the total length of the pen and the rubber. What is the length of the pencil?", "answer": "17 17/20 cm"},
-        {"id": "P5-D1", "paper": 5, "section": "D", "type": "long", "text": "Mr. Chan had 7 11/21 m of cloth. He used 4 2/7 m to make a shirt. Then he bought another 2 1/6 m of cloth. How much cloth did he have at last?", "answer": "5 5/14 m"},
+        {"id": "P5-D1", "paper": 5, "section": "D", "type": "long", "text": "Mr. Chan had 7 11/21 m of cloth. He used 4 2/7 m to make a shirt. Then he bought another 2 1/6 m of cloth. How much cloth did he have at last?", "answer": "5 17/42 m"},
         {"id": "P5-D2", "paper": 5, "section": "D", "type": "long", "text": "One kilogram of grapes costs $45.20. Mr. Wong bought a bunch of grapes which weighed 0.78 kg. How much should he pay (to the nearest dollar)?", "answer": "$35"},
         {"id": "P5-D3", "paper": 5, "section": "D", "type": "long", "text": "A cloth 8 4/5 m long can be exactly cut into 4 equal pieces. What is the length of each piece?", "answer": "2 1/5 m"},
         {"id": "P5-B10", "paper": 5, "section": "B", "type": "short", "text": "There are 196 poultries in a farm. 5/14 of the poultries are chickens and 3/14 of them are ducks. Find the total number of chickens and ducks.", "answer": "112"},
@@ -128,8 +128,8 @@
         {"id": "P5-B20", "paper": 5, "section": "B", "type": "short", "text": "Stephaine runs around a square court 8 times. If she runs 12 4/5 km in total, what is the side length of the square court?", "answer": "2/5 km"},
         {"id": "P2-D1", "paper": 2, "section": "D", "type": "long", "text": "Mrs Wilson bought 13 1/8 kg of potatoes which was 4/5 kg more than the amount bought by Mrs Jones. How many kilograms of potatoes did they buy altogether?", "answer": "25 9/20 kg"},
         {"id": "P2-D3", "paper": 2, "section": "D", "type": "long", "text": "3 1/2 m of cloth is used to make a dress. How many dresses can be made with a piece of cloth 25 1/5 m long?", "answer": "7"},
-        {"id": "P5-B23", "paper": 5, "section": "B", "type": "short", "text": "A box of milk costs $4.60. A box of orange juice costs $5.10. What will be the change if Ellsy pays $100 for 4 boxes of milk and 5 boxes of orange juice?", "answer": "$56.90"},
-        {"id": "P3-B12", "paper": 3, "section": "B", "type": "short", "text": "Susan had 216 balloons. 1/8 of the balloons were pink and 7/12 of the balloons were red. The remaining balloons were yellow. How many yellow balloons did Susan have?", "answer": "54"},
+        {"id": "P5-B23", "paper": 5, "section": "B", "type": "short", "text": "A box of milk costs $4.60. A box of orange juice costs $5.10. What will be the change if Ellsy pays $100 for 4 boxes of milk and 5 boxes of orange juice?", "answer": "$56.10"},
+        {"id": "P3-B12", "paper": 3, "section": "B", "type": "short", "text": "Susan had 216 balloons. 1/8 of the balloons were pink and 7/12 of the balloons were red. The remaining balloons were yellow. How many yellow balloons did Susan have?", "answer": "63"},
         {"id": "P4-B2", "paper": 4, "section": "B", "type": "short", "text": "A container holds 22 1/2 L of milk when it is 5/8 full. What is the volume of milk in the container when it is 3/4 full?", "answer": "27 L"}
       ]
     },
@@ -137,17 +137,17 @@
       "id": "area_perimeter",
       "name": "Area & Perimeter",
       "questions": [
-        {"id": "P3-A3", "paper": 3, "section": "A", "type": "mcq", "text": "A rectangle is made up of 2 identical squares. If the area of each square is 36 cm², find the perimeter of the rectangle.", "options": ["A. 24 cm", "B. 36 cm", "C. 54 cm", "D. 72 cm"], "answer": "C"},
+        {"id": "P3-A3", "paper": 3, "section": "A", "type": "mcq", "text": "A rectangle is made up of 2 identical squares. If the area of each square is 36 cm², find the perimeter of the rectangle.", "options": ["A. 24 cm", "B. 36 cm", "C. 54 cm", "D. 72 cm"], "answer": "B"},
         {"id": "P2-B6", "paper": 2, "section": "B", "type": "short", "text": "The side of an equilateral triangle is 7.24 cm. What is its perimeter?", "answer": "21.72 cm"},
         {"id": "P2-B10", "paper": 2, "section": "B", "type": "short", "text": "The height of a trapezium is 18 cm and its area is 198 cm². If the perimeter of the trapezium is 52 cm, what is the sum of the two non-parallel sides?", "answer": "30 cm"},
         {"id": "P2-B11", "paper": 2, "section": "B", "type": "short", "text": "A parallelogram is made up of 2 identical triangles. Each triangle has a base of 14 cm and a height of 8 cm. Find the area of the parallelogram.", "answer": "112 cm²"},
         {"id": "P2-B14", "paper": 2, "section": "B", "type": "short", "text": "The length of a rectangle is 7 1/2 cm. The width is 8/15 of its length. What is the area of the rectangle?", "answer": "30 cm²"},
-        {"id": "P2-D2", "paper": 2, "section": "D", "type": "long", "text": "The base of a parallelogram is 36.6 cm. Its height is 0.75 times of its base. Find its area. (Correct the answer to the nearest tenth.)", "answer": "1005.5 cm²"},
+        {"id": "P2-D2", "paper": 2, "section": "D", "type": "long", "text": "The base of a parallelogram is 36.6 cm. Its height is 0.75 times of its base. Find its area. (Correct the answer to the nearest tenth.)", "answer": "1004.7 cm²"},
         {"id": "P3-B11", "paper": 3, "section": "B", "type": "short", "text": "The area of a parallelogram is 108 m². Find the base of the parallelogram if the height is 12 m.", "answer": "9 m"},
-        {"id": "P5-B18", "paper": 5, "section": "B", "type": "short", "text": "How many 7-cm squares can be cut from a piece of paper which is 29 cm long and 23 cm wide at most?", "answer": "9"},
+        {"id": "P5-B18", "paper": 5, "section": "B", "type": "short", "text": "How many 7-cm squares can be cut from a piece of paper which is 29 cm long and 23 cm wide at most?", "answer": "12"},
         {"id": "P4-E3", "paper": 4, "section": "E", "type": "long", "text": "The side length of a square is 4.6 cm. What is the area of the square?", "answer": "21.16 cm²"},
         {"id": "P5-A6", "paper": 5, "section": "A", "type": "mcq", "text": "The upper base and lower base of a trapezium are 18 cm and 24 cm respectively. The area is 168 cm². Find the height of the trapezium.", "options": ["A. 2 cm", "B. 4 cm", "C. 8 cm", "D. 16 cm"], "answer": "C"},
-        {"id": "P5-B13", "paper": 5, "section": "B", "type": "short", "text": "The perimeter of an isosceles triangle is 39 cm. Two equal sides are each 11 cm. The base is 9 cm. Find the area of the triangle.", "answer": "76 cm²"},
+        {"id": "P5-B13", "paper": 5, "section": "B", "type": "short", "text": "The perimeter of an isosceles triangle is 39 cm. Two equal sides are each 11 cm. The base is 9 cm. Find the area of the triangle.", "answer": "76 cm² [NEEDS VERIFICATION: question data is inconsistent — 2×11 + 9 = 31 ≠ 39. Check original paper.]"},
         {"id": "P5-B19", "paper": 5, "section": "B", "type": "short", "text": "The volume of a cuboid is 135 cm³. The length is 8 cm and the width is 3 3/4 cm. Find its height.", "answer": "4.5 cm"}
       ]
     },
@@ -164,10 +164,10 @@
         {"id": "P5-B4", "paper": 5, "section": "B", "type": "short", "text": "Name TWO types of 3-D shapes which have 8 vertices or more.", "answer": "e.g. Cuboid, Hexagonal prism"},
         {"id": "P5-B11", "paper": 5, "section": "B", "type": "short", "text": "A rectangular box is 27 cm long, 9 cm wide and 6 cm high. How many 3-cm cubes can be put in the rectangular box at most?", "answer": "54"},
         {"id": "P5-E5", "paper": 5, "section": "E", "type": "long", "text": "Denise cuts out the largest cube from an 18 cm long, 8 cm wide and 4 cm tall cuboid. Find the volume of the remaining part of the cuboid.", "answer": "512 cm³"},
-        {"id": "P4-A8", "paper": 4, "section": "A", "type": "mcq", "text": "Which of the following 3-D shapes has a different number of edges?", "options": ["A. square pyramid", "B. cube", "C. rectangular prism", "D. hexagonal pyramid"], "answer": "D"},
+        {"id": "P4-A8", "paper": 4, "section": "A", "type": "mcq", "text": "Which of the following 3-D shapes has a different number of edges?", "options": ["A. square pyramid", "B. cube", "C. rectangular prism", "D. hexagonal pyramid"], "answer": "A"},
         {"id": "P4-B20", "paper": 4, "section": "B", "type": "short", "text": "A 3-D shape has 8 faces, 12 vertices and 18 edges. Name the 3-D shape.", "answer": "Hexagonal prism"},
         {"id": "P4-B21", "paper": 4, "section": "B", "type": "short", "text": "The volume of a cuboid is 135 cm³. Its length is 8 cm and its width is 3 3/4 cm. Find its height.", "answer": "4.5 cm"},
-        {"id": "P5-A8", "paper": 5, "section": "A", "type": "mcq", "text": "Sally wants to make a rectangular pyramid with plasticines and toothpicks. She has got 4 toothpicks. How many more toothpicks and plasticines does she need?", "options": ["A. 12 toothpicks and 8 plasticines", "B. 8 toothpicks and 8 plasticines", "C. 8 toothpicks and 5 plasticines", "D. 4 toothpicks and 5 plasticines"], "answer": "C"},
+        {"id": "P5-A8", "paper": 5, "section": "A", "type": "mcq", "text": "Sally wants to make a rectangular pyramid with plasticines and toothpicks. She has got 4 toothpicks. How many more toothpicks and plasticines does she need?", "options": ["A. 12 toothpicks and 8 plasticines", "B. 8 toothpicks and 8 plasticines", "C. 8 toothpicks and 5 plasticines", "D. 4 toothpicks and 5 plasticines"], "answer": "D"},
         {"id": "P3-E5", "paper": 3, "section": "E", "type": "long", "text": "A solid is made up of a cuboid and a cube. The volume of the solid and the cube are 108 cm³ and 27 cm³ respectively. The cuboid has a square cross-section of side 3 cm. Find the length of the cuboid.", "answer": "9 cm"}
       ]
     },
@@ -188,15 +188,15 @@
         {"id": "P3-A4", "paper": 3, "section": "A", "type": "mcq", "text": "Which of the following statements is correct?", "options": ["A. 2 identical trapeziums can form a rhombus", "B. A trapezium has 2 pairs of parallel opposite sides", "C. A rhombus has 2 pairs of equal opposite sides", "D. All quadrilaterals have 4 right angles"], "answer": "C"},
         {"id": "P5-A5", "paper": 5, "section": "A", "type": "mcq", "text": "Which of the following statements is NOT correct?", "options": ["A. A rectangle has four right angles", "B. An isosceles triangle has two sides equal in length", "C. A rhombus has only one pair of parallel sides", "D. A parallelogram has two pairs of parallel sides"], "answer": "C"},
         {"id": "P4-A3", "paper": 4, "section": "A", "type": "mcq", "text": "A kite with sides 2.9 cm and 4.2 cm is folded into 2 triangles. Which of the following statements is correct?", "options": ["A. 2 equilateral triangles are formed", "B. 2 scalene triangles are formed", "C. An equilateral triangle and an isosceles triangle are formed", "D. An isosceles triangle and a right-angled triangle are formed"], "answer": "D"},
-        {"id": "P5-A11", "paper": 5, "section": "A", "type": "mcq", "text": "Which of the following is correct?", "options": ["A. 28 cm = 0.28 m", "B. 680 ¢ = $68", "C. 0.025 kg = 250 g", "D. 0.6 km = 600 cm"], "answer": "C"},
-        {"id": "P4-A4", "paper": 4, "section": "A", "type": "mcq", "text": "Paul ran 3 1/5 laps on Monday, 3 4/25 laps on Tuesday and 2 3/8 laps on Wednesday. Which of the following statements is correct?", "options": ["A. Paul ran the most number of laps on Tuesday", "B. Paul ran less than 8 laps on these three days in total", "C. Paul ran 6 9/25 laps on Monday and Tuesday altogether", "D. Paul ran more than 2 1/2 laps on Wednesday"], "answer": "D"}
+        {"id": "P5-A11", "paper": 5, "section": "A", "type": "mcq", "text": "Which of the following is correct?", "options": ["A. 28 cm = 0.28 m", "B. 680 ¢ = $68", "C. 0.025 kg = 250 g", "D. 0.6 km = 600 cm"], "answer": "A"},
+        {"id": "P4-A4", "paper": 4, "section": "A", "type": "mcq", "text": "Paul ran 3 1/5 laps on Monday, 3 4/25 laps on Tuesday and 2 3/8 laps on Wednesday. Which of the following statements is correct?", "options": ["A. Paul ran the most number of laps on Tuesday", "B. Paul ran less than 8 laps on these three days in total", "C. Paul ran 6 9/25 laps on Monday and Tuesday altogether", "D. Paul ran more than 2 1/2 laps on Wednesday"], "answer": "C"}
       ]
     },
     {
       "id": "direction_maps",
       "name": "Direction & Maps",
       "questions": [
-        {"id": "P4-B22a", "paper": 4, "section": "B", "type": "short", "text": "On a map, the Market is to the southeast of the Library. The Bank is directly south of the Park and directly east of the Market. The Bank is to the ___ of the Market.", "answer": "south"},
+        {"id": "P4-B22a", "paper": 4, "section": "B", "type": "short", "text": "On a map, the Market is to the southeast of the Library. The Bank is directly south of the Park and directly east of the Market. The Bank is to the ___ of the Market.", "answer": "east"},
         {"id": "P4-B22b", "paper": 4, "section": "B", "type": "short", "text": "Peter goes from the Bank to the Park. Each grid square on the map is 300 m × 300 m. He walks directly northwest. How far does he walk?", "answer": "300 m"}
       ]
     }
